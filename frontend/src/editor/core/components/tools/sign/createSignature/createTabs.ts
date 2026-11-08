@@ -11,8 +11,8 @@ export const CREATE_TAB_ICONS: Record<CreateTab, IconName> = {
 
 export function createTabs(showPhone: boolean): CreateTab[] {
   return showPhone
-    ? ["draw", "type", "upload", "phone"]
-    : ["draw", "type", "upload"];
+    ? ["type", "upload", "draw", "phone"]
+    : ["type", "upload", "draw"];
 }
 
 export function createTabLabel(t: TFunction, tab: CreateTab): string {

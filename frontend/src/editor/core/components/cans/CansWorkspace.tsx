@@ -337,6 +337,19 @@ export function CansWorkspace() {
               <Icon name="layers" size={18} />
               {t("cans.pages", "页面")}
             </button>
+            <button
+              aria-pressed={selectedToolKey === "sign"}
+              onClick={() => {
+                if (selectedToolKey === "sign") {
+                  actions.setSelectedTool(null);
+                } else {
+                  handleToolSelect("sign");
+                }
+              }}
+            >
+              <Icon name="signature" size={18} />
+              {t("cans.sign", "电子签名")}
+            </button>
             <span className="cans-tool-divider" />
             {selectedToolKey !== "pdfTextEditor" && (
               <button

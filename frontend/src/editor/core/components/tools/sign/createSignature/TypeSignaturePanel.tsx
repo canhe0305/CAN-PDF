@@ -4,9 +4,12 @@ import { Checkbox } from "@editor/ui/Checkbox";
 import { FormField } from "@editor/ui/FormField";
 import { Input } from "@editor/ui/Input";
 import {
+  computeSecurityDigest,
   deriveInitials,
   renderTypedSignature,
+  type SecurityCertificateBadge,
 } from "@editor/utils/signatureImage";
+import { Icon } from "@editor/ui/Icon";
 import { InkSwatches } from "@editor/components/tools/sign/createSignature/InkSwatches";
 import { SignatureStylePicker } from "@editor/components/tools/sign/createSignature/SignatureStylePicker";
 import {
@@ -28,12 +31,14 @@ const RENDER_FONT_SIZE = 120;
 
 async function renderSource(
   source: TypedSignatureSource,
+  securityBadge?: SecurityCertificateBadge,
 ): Promise<string | null> {
   return renderTypedSignature({
     text: source.signerName,
     fontFamily: source.fontFamily,
     color: source.textColor,
     fontSize: source.fontSize,
+    ...(securityBadge ? { securityBadge } : {}),
   });
 }
 
@@ -56,6 +61,8 @@ export const TypeSignaturePanel = forwardRef<
   const [font, setFont] = useState<SignatureFont>(SIGNATURE_FONTS[0]);
   const [ink, setInk] = useState<InkColor>(DEFAULT_INK);
   const [includeInitials, setIncludeInitials] = useState(true);
+  const [includeBadge, setIncludeBadge] = useState(false);
+  const [reason, setReason] = useState("");
 
   const initials = initialsOverride ?? deriveInitials(name);
   const hasName = name.trim().length > 0;
@@ -74,7 +81,18 @@ export const TypeSignaturePanel = forwardRef<
       textColor: ink.value,
     };
     const text = { signerName: name.trim(), ...style };
-    const dataUrl = await renderSource(text);
+    const securityBadge: SecurityCertificateBadge | undefined = includeBadge
+      ? {
+          enabled: true,
+          signerName: name.trim(),
+          reason:
+            reason.trim() ||
+            t("sign.wallet.type.reasonDefault", "确认签署此文档"),
+          digest: await computeSecurityDigest(name.trim()),
+        }
+      : undefined;
+
+    const dataUrl = await renderSource(text, securityBadge);
     if (!dataUrl) return null;
     const initialsSource = { signerName: initials.trim(), ...style };
     const initialsUrl = savesInitials
@@ -143,6 +161,40 @@ export const TypeSignaturePanel = forwardRef<
         value={font}
         onChange={setFont}
       />
+      <div className={styles.badgeSection}>
+        <Checkbox
+          label={t(
+            "sign.wallet.type.acrobatBadge",
+            "附加 Adobe Acrobat 风格数字安全认证徽章",
+          )}
+          checked={includeBadge}
+          onChange={(event) => setIncludeBadge(event.currentTarget.checked)}
+        />
+        {includeBadge && (
+          <div className={styles.badgeFields}>
+            <FormField label={t("sign.wallet.type.reason", "签署意图 / 理由")}>
+              <Input
+                value={reason}
+                onChange={(event) => setReason(event.currentTarget.value)}
+                placeholder={t(
+                  "sign.wallet.type.reasonPlaceholder",
+                  "确认签署此文档 (I approve this document)",
+                )}
+                maxLength={60}
+              />
+            </FormField>
+            <div className={styles.badgeHint}>
+              <Icon name="shield-check" size={14} />
+              <span>
+                {t(
+                  "sign.wallet.type.badgeDesc",
+                  "生成包含签署人、防伪时间戳与 SHA-256 哈希校验的双栏证书印章。",
+                )}
+              </span>
+            </div>
+          </div>
+        )}
+      </div>
       <div className={styles.footer}>
         <InkSwatches value={ink} onChange={setInk} />
         <Checkbox

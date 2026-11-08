@@ -42,3 +42,21 @@ describe("fitPlacedSignatureSize", () => {
     expect(Number.isFinite(size.height)).toBe(true);
   });
 });
+
+describe("formatAcrobatDate", () => {
+  it("formats dates in Adobe Acrobat standard timezone format", async () => {
+    const { formatAcrobatDate } = await import("@editor/utils/signatureImage");
+    const testDate = new Date("2026-11-08T12:30:45Z");
+    const result = formatAcrobatDate(testDate);
+    expect(result).toMatch(/^\d{4}\.\d{2}\.\d{2} \d{2}:\d{2}:\d{2} [+-]\d{2}'\d{2}'$/);
+  });
+});
+
+describe("computeSecurityDigest", () => {
+  it("produces a 16-character hexadecimal digest", async () => {
+    const { computeSecurityDigest } = await import("@editor/utils/signatureImage");
+    const digest = await computeSecurityDigest("John Doe");
+    expect(digest).toHaveLength(16);
+    expect(digest).toMatch(/^[0-9a-f]{16}$/);
+  });
+});

@@ -60,7 +60,7 @@ export function CreateSignatureModal({
   const { t } = useTranslation();
   const tabs = createTabs(showPhoneTab);
   const [tab, setTab] = useState<CreateTab>(
-    tabs.includes(initialTab) ? initialTab : "draw",
+    tabs.includes(initialTab) ? initialTab : tabs[0],
   );
   const { ready, handlers } = useTabReadiness();
   const [phoneResult, setPhoneResult] = useState<string | null>(null);

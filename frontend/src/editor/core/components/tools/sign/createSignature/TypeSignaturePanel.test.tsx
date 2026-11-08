@@ -19,6 +19,7 @@ vi.mock("@editor/utils/signatureImage", () => ({
       .map((part) => part[0])
       .join(""),
   renderTypedSignature: vi.fn(async () => "data:image/png;base64,signature"),
+  computeSecurityDigest: vi.fn(async () => "0123456789abcdef"),
 }));
 
 describe("TypeSignaturePanel phone text", () => {
@@ -59,5 +60,38 @@ describe("TypeSignaturePanel phone text", () => {
       fontSize: 120,
       color: "#cc3399",
     });
+  });
+
+  it("includes Acrobat security badge when enabled", async () => {
+    const panel = createRef<TypePanelHandle>();
+    render(
+      <MantineProvider>
+        <TypeSignaturePanel
+          ref={panel}
+          onReadyChange={vi.fn()}
+          saveEnabled={false}
+          canSaveInitials={false}
+        />
+      </MantineProvider>,
+    );
+    act(() => {
+      panel.current?.setName("Jane Smith");
+    });
+    const badgeCheckbox = screen.getByRole("checkbox", {
+      name: /Acrobat/i,
+    });
+    act(() => {
+      badgeCheckbox.click();
+    });
+    await panel.current?.getResult();
+    expect(renderTypedSignature).toHaveBeenCalledWith(
+      expect.objectContaining({
+        text: "Jane Smith",
+        securityBadge: expect.objectContaining({
+          enabled: true,
+          signerName: "Jane Smith",
+        }),
+      }),
+    );
   });
 });

@@ -113,7 +113,7 @@ export function SignatureWallet({
           library={library}
           placement={placement}
           disabled={disabled}
-          onNew={() => openCreate("draw")}
+          onNew={() => openCreate("type")}
           onRename={(signature) => setDialog({ kind: "rename", signature })}
           onDelete={(signature) => setDialog({ kind: "delete", signature })}
           onShare={(signature) => void actions.share(signature)}
