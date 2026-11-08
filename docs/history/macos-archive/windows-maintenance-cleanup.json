@@ -1,0 +1,11 @@
+{
+  "Name": "CANS-maintenance-cleanup.exe",
+  "Bytes": 47821312,
+  "SHA256": "64D159131DBC0FAE17569DBFC47B084CBE05651411ECFB1F2315551285045D2C",
+  "Built": "2026-10-11T03:09:14.9188985+01:00",
+  "FrontendTests": 75,
+  "NativeTests": 20,
+  "Purpose": "Document session/navigation/search/view separation; typed form boundary; CSS consolidation; strict test and script checking; separated test outputs",
+  "InstallerUpdated": false,
+  "NativeInteractiveValidation": false
+}

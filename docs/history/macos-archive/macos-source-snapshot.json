@@ -1,0 +1,2785 @@
+{
+  "createdAt": "2026-11-01T22:41:56.589Z",
+  "source": "E:\\AI CODING\\whoes pdf",
+  "destination": "E:\\AI CODING\\CANS PDF macOS",
+  "description": "Source snapshot for macOS development; not a verified macOS build.",
+  "excluded": [
+    "node_modules",
+    "target",
+    "dist",
+    ".git",
+    "gen",
+    ".ocr-models",
+    "tests/output",
+    ".env*",
+    "*.local"
+  ],
+  "modifiedAfterCopy": [
+    "src-tauri/tauri.conf.json",
+    "README.md"
+  ],
+  "files": [
+    {
+      "path": "src/App.css",
+      "bytes": 26050,
+      "sha256": "0a049b0947d230f7be6241eacd4daba9e8fb4dbd586c837a8b1508fe9035ff81"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 44846,
+      "sha256": "3bee9184626ad512ac0548e71a4ab3541d63470ebed37f4a29741ca98a3b00e1"
+    },
+    {
+      "path": "src/async/abortable.ts",
+      "bytes": 753,
+      "sha256": "6ed7740c3182214a817fb9ebd7f746fa1296e9c64678de4c2ea712065870429f"
+    },
+    {
+      "path": "src/async/exclusive-operation.ts",
+      "bytes": 416,
+      "sha256": "d938d9ae3cc9499ed390c596089f0913ef81e0a06f1057b7a36f2db24b7e7cfb"
+    },
+    {
+      "path": "src/components/CommandPalette.tsx",
+      "bytes": 3812,
+      "sha256": "8d600cea6ce71cf010e6ce1fc92c6cc1031f17ed930a9fc569b0b16b41176606"
+    },
+    {
+      "path": "src/components/DocumentInfo.tsx",
+      "bytes": 1713,
+      "sha256": "2f76b2732b6828e32a6faf72617d3625dcff4bf2129762db36b93cdd63ff81f8"
+    },
+    {
+      "path": "src/components/DocumentSearch.tsx",
+      "bytes": 1957,
+      "sha256": "61d7f54b2636459f6098bd114f76b53ad70f43e2d0813a251932927b94c7c055"
+    },
+    {
+      "path": "src/components/FormFields.tsx",
+      "bytes": 3496,
+      "sha256": "0264f214ea25a474e14ad8fbe89e7e2e151c6feb58b1a25e163b02a50b11541f"
+    },
+    {
+      "path": "src/components/PageSidebar.tsx",
+      "bytes": 4480,
+      "sha256": "327ff1391de823a535aa1b49008acff17234a07e2040dd0528c0aa914b123877"
+    },
+    {
+      "path": "src/components/PdfPage.tsx",
+      "bytes": 22377,
+      "sha256": "62a1644c484301f4f4ca35e46282e464cec8608c4d6e92a4aa016685f0b0a972"
+    },
+    {
+      "path": "src/components/SignatureDialog.tsx",
+      "bytes": 5544,
+      "sha256": "47153c625593e783a9e92177e6082b18fef2b3290cac2c0414bdfa12a54d34a5"
+    },
+    {
+      "path": "src/components/text-layer.css",
+      "bytes": 3839,
+      "sha256": "2d991e38360e1f9a8934a6e1fc0107c11a9dcd11a22904ae17518cba167a6f0d"
+    },
+    {
+      "path": "src/components/Thumbnail.tsx",
+      "bytes": 2561,
+      "sha256": "7412a1db71ba8bfbc3fb51223449c140fe0a19418f4f90ccdc3c1c7fb21ed57f"
+    },
+    {
+      "path": "src/document/fit.ts",
+      "bytes": 619,
+      "sha256": "a67240936533f03cbada999a3e7ec8cd0ab17a34b3fe86bb56a9cf0b342aeae2"
+    },
+    {
+      "path": "src/document/model.ts",
+      "bytes": 2358,
+      "sha256": "d8fa9be312a6f8d019bfb3cce3891b86a63b38637432e06d01820e3b4c1c2fff"
+    },
+    {
+      "path": "src/document/native-save.ts",
+      "bytes": 482,
+      "sha256": "e048a4992673218860387bda9ff4fbe79edefefd03118a13be3a8ad8dde847b4"
+    },
+    {
+      "path": "src/document/queue.ts",
+      "bytes": 319,
+      "sha256": "87fde4d38d08c4868e9898751e6a470294d7ee757c960cbdd99105289b027bc2"
+    },
+    {
+      "path": "src/document/session.ts",
+      "bytes": 485,
+      "sha256": "3afacd704f98acc4405d5e14878146feb9bf60b4820af95c618194bf5b4c06aa"
+    },
+    {
+      "path": "src/document/useDocumentNavigation.ts",
+      "bytes": 5913,
+      "sha256": "b48d14bc9dbf49a432274262b12828ab3a48cc0e070f4b5f354874dedf3ed839"
+    },
+    {
+      "path": "src/document/useDocumentPreview.ts",
+      "bytes": 2295,
+      "sha256": "52f6cb050eff13750ea5f75895f64cee2b60f652c724dec41be42afc162c9ef9"
+    },
+    {
+      "path": "src/document/useDocumentSearch.ts",
+      "bytes": 2378,
+      "sha256": "a4a270a9f1d35a5afa6a53409357dc8be561927c5521efb1a5c876903f3ab5bf"
+    },
+    {
+      "path": "src/document/useDocumentSession.ts",
+      "bytes": 10195,
+      "sha256": "8d2d59fdeecf60d2696776dc744ca3f0af9cc804f015d4d34c14603d37ebca1a"
+    },
+    {
+      "path": "src/document/useDocumentView.ts",
+      "bytes": 3949,
+      "sha256": "f5ef4a8084f4865470ab28f4aa6788c7f08936df26c354d965c5ccf93fa30132"
+    },
+    {
+      "path": "src/features/ocr/engine.ts",
+      "bytes": 3308,
+      "sha256": "d799d51b693ceefd2617e3a4c613e853f7433f08a51e3efa8783149c558117dd"
+    },
+    {
+      "path": "src/features/ocr/layout.ts",
+      "bytes": 1938,
+      "sha256": "78156ee0606bd6f47e40e147448efbbe50bfef5f6bf396fefe1d9900e88670c1"
+    },
+    {
+      "path": "src/features/ocr/models.json",
+      "bytes": 579,
+      "sha256": "1770d381dca2e1785eb633bc318c2c3fdea8e5274283cb8a3148e285237eeb0e"
+    },
+    {
+      "path": "src/features/ocr/models.ts",
+      "bytes": 2792,
+      "sha256": "458744fd5e636c15ca71d90f375268341e3281594a16c8d5e1878b72d80f0139"
+    },
+    {
+      "path": "src/features/ocr/ocr.css",
+      "bytes": 2607,
+      "sha256": "ab07f1f746f3872067302cff353d74617230cfeebc09234c99589a4cb56e4051"
+    },
+    {
+      "path": "src/features/ocr/OcrDialog.tsx",
+      "bytes": 11863,
+      "sha256": "157e50730ecc47fac95c5fe1ae5ed241c8462fa2f9fbdf8d1f429fdaac6decad"
+    },
+    {
+      "path": "src/features/original-text/editor-geometry.ts",
+      "bytes": 1557,
+      "sha256": "a2780f7325514441200455c2c7ce42a424bf72cca4d9b604f12a020c744606d6"
+    },
+    {
+      "path": "src/features/original-text/engine.ts",
+      "bytes": 13696,
+      "sha256": "3ba82e44dff11a94923ae2cd82b8c3187fb0fa33a872a8ec8ac35aebdf3a5a5b"
+    },
+    {
+      "path": "src/features/original-text/InlineOriginalEditor.tsx",
+      "bytes": 11141,
+      "sha256": "d7f47bf2b898fa726f4e2be2998191b189289e4bed879baf0a4f4079414872c0"
+    },
+    {
+      "path": "src/features/original-text/list.worker.ts",
+      "bytes": 495,
+      "sha256": "1b7ac8234b91185c3cf694a0fd907da6eb1b4ccb922193e745985875a49a9bf6"
+    },
+    {
+      "path": "src/features/original-text/original-text.css",
+      "bytes": 2345,
+      "sha256": "911855bc5719421786ddf244653f82ab508ca56f1c7d4c7e4371a5de1fb3c9c9"
+    },
+    {
+      "path": "src/features/original-text/OriginalTextLayer.tsx",
+      "bytes": 4736,
+      "sha256": "ecef0d69dd6d335fa80f1d78fe59b0ae9d1fe5eff7aa043875c2116c247e22ab"
+    },
+    {
+      "path": "src/features/original-text/revision.ts",
+      "bytes": 983,
+      "sha256": "0f4b0fc6cc24b6b54e4fb1bb6a99b29327cc2635fe31d1bcf7936b05fb36f950"
+    },
+    {
+      "path": "src/features/original-text/service.ts",
+      "bytes": 1251,
+      "sha256": "89a57ef459b35e07ce3b9f3bf612a894114c4d19b4aae4d5a277b48b9c1c8ee7"
+    },
+    {
+      "path": "src/features/original-text/types.ts",
+      "bytes": 546,
+      "sha256": "9d305c26008d2e7a6f114101405334098dcb8d4c79488971ae8cf10826e815e4"
+    },
+    {
+      "path": "src/features/pdfcraft/pdfcraft.css",
+      "bytes": 1961,
+      "sha256": "87dcdf2f2e6d453fa2470493c5734804ea9516cefe3ae9467aff3c1aa93ab4cc"
+    },
+    {
+      "path": "src/features/pdfcraft/PdfToolsDialog.tsx",
+      "bytes": 12494,
+      "sha256": "aab53085bd717f78febd37664fd901a1d450d98555be31cc0bf31cf252668296"
+    },
+    {
+      "path": "src/features/pdfcraft/selection.ts",
+      "bytes": 2752,
+      "sha256": "9e84885f72e219db371176610ecb6b49059779114ddd2a6402e163be950fd18b"
+    },
+    {
+      "path": "src/features/pdfcraft/service.ts",
+      "bytes": 2705,
+      "sha256": "fb256449584b375a8629530a7a458bc12da16f7b552b4f5248230ce6bb6b405e"
+    },
+    {
+      "path": "src/features/translation/api.ts",
+      "bytes": 6824,
+      "sha256": "35002ef52a8b81ec730389171fb30cb91d1958c4425dda41e365ab33f18ec370"
+    },
+    {
+      "path": "src/features/translation/export-service.ts",
+      "bytes": 535,
+      "sha256": "e14540f6cd84b7bdb252360bb21c45013b72e14b47d2697f54c8e3f4aa0f780c"
+    },
+    {
+      "path": "src/features/translation/export.ts",
+      "bytes": 2923,
+      "sha256": "c06d13c825e3b91fa2437bb18055f01f47b1ba0bc045f458826179036b356ce2"
+    },
+    {
+      "path": "src/features/translation/export.worker.ts",
+      "bytes": 691,
+      "sha256": "fa50b0efb1888df6d39fc854d550fbce44d4517f6e651ada3f261718879deb72"
+    },
+    {
+      "path": "src/features/translation/layout.ts",
+      "bytes": 3373,
+      "sha256": "a6bc2d88c972525646d647872ecae8fd334f0b27e6b8755b4b22dc96a7db6d6b"
+    },
+    {
+      "path": "src/features/translation/translation.css",
+      "bytes": 8048,
+      "sha256": "8ab9fd6d2c5151953898b60f8a84eb0c67c00d7b522da43096af757be7914411"
+    },
+    {
+      "path": "src/features/translation/TranslationDialog.tsx",
+      "bytes": 23239,
+      "sha256": "0188502c8a43f88dc8fd577089a6dd50b48da486e4464e6ef381b9d94653f77e"
+    },
+    {
+      "path": "src/features/translation/types.ts",
+      "bytes": 421,
+      "sha256": "91294c8a57e5328692a6dd947eb0d8233d54423af4edc9f477f7470bf87b9f91"
+    },
+    {
+      "path": "src/fonts/system.ts",
+      "bytes": 1859,
+      "sha256": "9d678749b0ced20ba488095b1df1cdae0c05a1d53b95e0aeafd9b0210bf6fefd"
+    },
+    {
+      "path": "src/hooks/useLatestCallback.ts",
+      "bytes": 373,
+      "sha256": "97d2b40aa124ee0682e3e7499cbaaacc091d343be49d3dcaea793571262cbb96"
+    },
+    {
+      "path": "src/locales/zh.ts",
+      "bytes": 145,
+      "sha256": "aed559c70a9cd9a045399a153fb3bb56e5c0023ba4697ecb323801cf5712684f"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 229,
+      "sha256": "bfcf131d8fb04a4dadcdd633c0bdbefea3f3a7af5bb35d34dc55588991887654"
+    },
+    {
+      "path": "src/pdf/binary-request.ts",
+      "bytes": 566,
+      "sha256": "ce6b3ee9ed5651ad139418610d453a6f644e255b302ba0e745b8810ea1393b29"
+    },
+    {
+      "path": "src/pdf/fonts.ts",
+      "bytes": 999,
+      "sha256": "036f180f7c5be254b07c1d9ee061cfdce94bed80fa3ce933c5c47edde7de7151"
+    },
+    {
+      "path": "src/pdf/form-widgets.ts",
+      "bytes": 3827,
+      "sha256": "c749e9c509bd2d6d5af9e31cc1c953795270d5a7794cc0a50847976eb3c2a38c"
+    },
+    {
+      "path": "src/pdf/open-document.ts",
+      "bytes": 2351,
+      "sha256": "4471b110ff2af979bc3253e3d1e98dd5ead9f410241576fb524966e73fa5434e"
+    },
+    {
+      "path": "src/pdf/outline.ts",
+      "bytes": 1300,
+      "sha256": "e9ec85910a4e1131bc935e9095603f2cc0b6dabc15666e4cf3049a3a071f9783"
+    },
+    {
+      "path": "src/pdf/preview-document.ts",
+      "bytes": 1797,
+      "sha256": "e10f90e7a03c739b3d0ce795df9b05fc6435259aebcb6073c5449ae73bb4d410"
+    },
+    {
+      "path": "src/pdf/reader.ts",
+      "bytes": 427,
+      "sha256": "0080039a9f6fb75de9613276b7c442bb60664fd5c9ec6e9e15d663c9c355c52b"
+    },
+    {
+      "path": "src/pdf/search-cache.ts",
+      "bytes": 905,
+      "sha256": "e4359ddd3b462ed108c80da2dc41fdd43605454988b976802cf367ec2035faa3"
+    },
+    {
+      "path": "src/pdf/service.ts",
+      "bytes": 1634,
+      "sha256": "731aa4b7c92366893e2f07c32d647873c8baebe41de76c981a83e62821c753a5"
+    },
+    {
+      "path": "src/pdf/worker-job.ts",
+      "bytes": 1125,
+      "sha256": "863f9a3811e25c865595320d679e865b68edea28383dc76c00832dcf302c6795"
+    },
+    {
+      "path": "src/pdf/write-request.ts",
+      "bytes": 329,
+      "sha256": "010686d3013b35fb36ba8a2b7ad252add27213c36eed53986074b7f5c52ab96e"
+    },
+    {
+      "path": "src/pdf/write.worker.ts",
+      "bytes": 2413,
+      "sha256": "b3fb76c18133ad072d90e957fdde8e40685672e2f71fcf153d2ebbd64c30c86b"
+    },
+    {
+      "path": "src/pdf/writer.ts",
+      "bytes": 9718,
+      "sha256": "9ed5fc3faf256749d4a0eedb26859cdc727f2b9078194da4f65d02d919733371"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "src-tauri/.gitignore",
+      "bytes": 173,
+      "sha256": "e1b11c0407131ad35a1f11d8ec2545c53de147a76f05e264e5b500a14b977332"
+    },
+    {
+      "path": "src-tauri/build.rs",
+      "bytes": 42,
+      "sha256": "4ae2333b11623039cc115e29b696e7ff5cdfcd5b7d628280ddf48fa733e6418d"
+    },
+    {
+      "path": "src-tauri/capabilities/default.json",
+      "bytes": 412,
+      "sha256": "fd11d9ec2ccad0461093c607a44c97ef62b5fc86b91b05ab33c8c2f8ed5967fc"
+    },
+    {
+      "path": "src-tauri/Cargo.lock",
+      "bytes": 142714,
+      "sha256": "06879ecd7b21d74dd6fcf49a77628d34b68b2acd120e68553d962cb06ad88d0b"
+    },
+    {
+      "path": "src-tauri/Cargo.toml",
+      "bytes": 1553,
+      "sha256": "eee1b5219ff16725f2f545cb7022cc236f89ba5fb4a6042c5e9b2e9e4fdd32b3"
+    },
+    {
+      "path": "src-tauri/icons/128x128.png",
+      "bytes": 2636,
+      "sha256": "72d52771c8b319fbf932e4665c88e458d47f9d235bdc68bdef6cb367e033e107"
+    },
+    {
+      "path": "src-tauri/icons/128x128@2x.png",
+      "bytes": 5222,
+      "sha256": "315bf414a2aa748216318712c178fd22a6c9389ef2d20314e72c1faafeba6e44"
+    },
+    {
+      "path": "src-tauri/icons/32x32.png",
+      "bytes": 730,
+      "sha256": "4e793fd3e1ff5af029efeeb03d852f9861438700b5c3cb96784893e8e3c2b82b"
+    },
+    {
+      "path": "src-tauri/icons/64x64.png",
+      "bytes": 1389,
+      "sha256": "71be55a1a00090eb143641e27d4495bace35ec53e323dadd8fd2e13372daa7af"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 261,
+      "sha256": "760d4b8a06bf7163dd010c33ad2cac9e4a75fa0177afaba042f83e311eef0c3e"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-hdpi/ic_launcher.png",
+      "bytes": 3251,
+      "sha256": "8053785fa0c257b593085654709b0b946891a448f711775ab77f971fcd5798e7"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-hdpi/ic_launcher_foreground.png",
+      "bytes": 3362,
+      "sha256": "56ddc8137323f46ea885954db6ac73fa7c4aa8b0910b5fa59a0657adad92f408"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-hdpi/ic_launcher_round.png",
+      "bytes": 2618,
+      "sha256": "368d53b71911d59bfa958c077c4f2961f2b8ea5729fd3f2bb3db2e2e3a185bcf"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-mdpi/ic_launcher.png",
+      "bytes": 2015,
+      "sha256": "8d83031aa05b19ade24c4e0ec16baddd644ebb3af558965727ee3de741612a59"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-mdpi/ic_launcher_foreground.png",
+      "bytes": 2146,
+      "sha256": "97d31628861c3aef763f50c2d909f8dab2200e88c13da3ad966573b65ff59ac0"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-mdpi/ic_launcher_round.png",
+      "bytes": 1635,
+      "sha256": "db94175875bc227cfa8568ea27c6a34188c8f0f63dda6ccab9afe9cd1cd9fe93"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 4368,
+      "sha256": "d7ee254c7fa346ae884ec9851a5406ebe28c41476a9d0d6d9eddfcde7505f78a"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xhdpi/ic_launcher_foreground.png",
+      "bytes": 4508,
+      "sha256": "954e1860bfc60e1f76511b5b9fd82fb7bdb0670b542bbdc7b14037f9b291f937"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xhdpi/ic_launcher_round.png",
+      "bytes": 3445,
+      "sha256": "9b278f935ed452602b32b6af53c405c3419eac8b7b2a51c60b677c46a6fe27f3"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 6360,
+      "sha256": "a99474656376abf40ce165792a89366ca16a13aea83d5a7290cf61c9b0997c19"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "bytes": 6530,
+      "sha256": "183ff98af1a4b87c52dbf7048951f6e8b0693ff6277140455a3008c697ead243"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxhdpi/ic_launcher_round.png",
+      "bytes": 5431,
+      "sha256": "171523b1bf3492ec068e3f76f3a027d390488a17941b563507585c4517822b5b"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 9207,
+      "sha256": "fe83d674c6f834552b2df3918800eae632c929359e586081f2fa3cd2eb4dd8f9"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "bytes": 8871,
+      "sha256": "1d17d626b32391ff1a17aa80971732b4b29967c8d03cf60b0a0280d92fc4da5a"
+    },
+    {
+      "path": "src-tauri/icons/android/mipmap-xxxhdpi/ic_launcher_round.png",
+      "bytes": 7357,
+      "sha256": "f4938f613eb6ea2a3fe9f62c846862be99b676829d187f8c5d0545505465b716"
+    },
+    {
+      "path": "src-tauri/icons/android/values/ic_launcher_background.xml",
+      "bytes": 118,
+      "sha256": "b1c42868a1777ed1cf61108b506ffc91d0a826318d8516e36cf8f76fab8c4ced"
+    },
+    {
+      "path": "src-tauri/icons/icon.icns",
+      "bytes": 62716,
+      "sha256": "4ef2ad717e242e54506c963e4cc721557673902982a708182d5400e5599da762"
+    },
+    {
+      "path": "src-tauri/icons/icon.ico",
+      "bytes": 11514,
+      "sha256": "d1a5e608927bbe0dd8934b02cfccb1eb4b218e3099288be499d92e56ed16067c"
+    },
+    {
+      "path": "src-tauri/icons/icon.png",
+      "bytes": 10638,
+      "sha256": "71d6648469009bd837fff0a6966ce65d6db03a22ac9665008870241f6fb31181"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-20x20@1x.png",
+      "bytes": 510,
+      "sha256": "cdea50158538d3230d30ad21d2a992bb7ead6ac3c74934ebf832cf4795529faa"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-20x20@2x-1.png",
+      "bytes": 893,
+      "sha256": "32ea3c41e505928b6cec101dcc948b55260f4dc200624e53985e3bdbe198f14b"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-20x20@2x.png",
+      "bytes": 893,
+      "sha256": "32ea3c41e505928b6cec101dcc948b55260f4dc200624e53985e3bdbe198f14b"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-20x20@3x.png",
+      "bytes": 1284,
+      "sha256": "e0d615abb04859b20ac3dbec36a4276ea874a067c4a763128418dd02bbe39d09"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-29x29@1x.png",
+      "bytes": 690,
+      "sha256": "41162b6c0394b56ec9ec672d1d657a6e93407171ac8c673706d598527b9c87c9"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-29x29@2x-1.png",
+      "bytes": 1238,
+      "sha256": "b94f86d98a4113fee9e2294e08c29db7a7418ad55c47905eb992186c7901a8e6"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-29x29@2x.png",
+      "bytes": 1238,
+      "sha256": "b94f86d98a4113fee9e2294e08c29db7a7418ad55c47905eb992186c7901a8e6"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-29x29@3x.png",
+      "bytes": 1774,
+      "sha256": "d7fd3d967aeaed3734b5caa9b0402d214efdb33c01132a213f1bef1773e94d78"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-40x40@1x.png",
+      "bytes": 893,
+      "sha256": "32ea3c41e505928b6cec101dcc948b55260f4dc200624e53985e3bdbe198f14b"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-40x40@2x-1.png",
+      "bytes": 1722,
+      "sha256": "b10493374aec85bd98281358db8c9bff74b47c61ed0b8f67acbed0e0d3266cc0"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-40x40@2x.png",
+      "bytes": 1722,
+      "sha256": "b10493374aec85bd98281358db8c9bff74b47c61ed0b8f67acbed0e0d3266cc0"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-40x40@3x.png",
+      "bytes": 2402,
+      "sha256": "1bafc5a18b65d9803187255bf36e8865f58d945a03c54aa5a2610beef5dbd19f"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-512@2x.png",
+      "bytes": 23435,
+      "sha256": "5a0337750ce77ca87b50c08dde06e753eee8df7625f83c7e6546e58b15295aa6"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-60x60@2x.png",
+      "bytes": 2402,
+      "sha256": "1bafc5a18b65d9803187255bf36e8865f58d945a03c54aa5a2610beef5dbd19f"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-60x60@3x.png",
+      "bytes": 3655,
+      "sha256": "901d94668798ae157701aa6f968442fe72ad8b0fb7bd379ee05d6c2891bc05d2"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-76x76@1x.png",
+      "bytes": 1616,
+      "sha256": "1b3e540537e29c2cd108898e317b3648d632d00c0f1ada1c25ab66de6ae4dcd3"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-76x76@2x.png",
+      "bytes": 3129,
+      "sha256": "256f7ffbc83c6dae85d79383e469ebe5ac450637bf12302cc0b09f45164eb467"
+    },
+    {
+      "path": "src-tauri/icons/ios/AppIcon-83.5x83.5@2x.png",
+      "bytes": 3418,
+      "sha256": "ced02a38b3961215c73759b6064d1c5664e8170ab7f9636e14db9e64c84138fa"
+    },
+    {
+      "path": "src-tauri/icons/Square107x107Logo.png",
+      "bytes": 2201,
+      "sha256": "cc3d7b172e7859b04f9ab2ce47f1b32bcc7cee9ee1bfece1cd8c40a03f20c3bf"
+    },
+    {
+      "path": "src-tauri/icons/Square142x142Logo.png",
+      "bytes": 2937,
+      "sha256": "43bb00e8e6499ba3bcafe8aede97e409e46b4cfe1ef87bc431e987cb9a32d544"
+    },
+    {
+      "path": "src-tauri/icons/Square150x150Logo.png",
+      "bytes": 3067,
+      "sha256": "1adbc5632883d19bdda2771116009fefb0439c0d9860d69af7bc928f6f1fdbd9"
+    },
+    {
+      "path": "src-tauri/icons/Square284x284Logo.png",
+      "bytes": 5901,
+      "sha256": "79bdea565c1a9a70327b8d2a7f8fc2c674527387f15e5c1631bad0b90d4ef352"
+    },
+    {
+      "path": "src-tauri/icons/Square30x30Logo.png",
+      "bytes": 684,
+      "sha256": "38bd7f647c418ed62add08663d6baece5c824a4ce8939f796a47557ba33b3ca2"
+    },
+    {
+      "path": "src-tauri/icons/Square310x310Logo.png",
+      "bytes": 6374,
+      "sha256": "639a16d7d1b146ae1ba69d0cbc5ede03cd5e605f6dae139cac1ddbe65676c1a8"
+    },
+    {
+      "path": "src-tauri/icons/Square44x44Logo.png",
+      "bytes": 980,
+      "sha256": "555644c2830c702d46fe7d2f812eed904a4088d24d24481f2fd5a4004afb6606"
+    },
+    {
+      "path": "src-tauri/icons/Square71x71Logo.png",
+      "bytes": 1523,
+      "sha256": "7406caedd621f1f8d3ed15f55897217f8d248a47b9b318820d2672b71b99a830"
+    },
+    {
+      "path": "src-tauri/icons/Square89x89Logo.png",
+      "bytes": 1878,
+      "sha256": "ba0b2ff7640e10231b0f218a64172f89baba6f7e364cbddd52d85c6508818230"
+    },
+    {
+      "path": "src-tauri/icons/StoreLogo.png",
+      "bytes": 1138,
+      "sha256": "283ffe7c5b548c25c8db569996ea35f5b0f3eaa7e61f484c736203840f3610d9"
+    },
+    {
+      "path": "src-tauri/src/binary.rs",
+      "bytes": 644,
+      "sha256": "f935c7b90f16e6e3c65b45c6dfed45d606f6039428879c71070bd6bcf5f73d4e"
+    },
+    {
+      "path": "src-tauri/src/files.rs",
+      "bytes": 18230,
+      "sha256": "60852379368b832f17f12c3702cf82fc0eda54d7deac6727aa42a44db9dcec8f"
+    },
+    {
+      "path": "src-tauri/src/fonts.rs",
+      "bytes": 2823,
+      "sha256": "d415ed109a54858bc878ea776ea7f03d453bf287722bc1fc67fc5d8b5f628ebe"
+    },
+    {
+      "path": "src-tauri/src/lib.rs",
+      "bytes": 900,
+      "sha256": "010055f935880825eeff44790203a6c3c592977c84b868e83c65baca0a6132f4"
+    },
+    {
+      "path": "src-tauri/src/main.rs",
+      "bytes": 190,
+      "sha256": "23d120cfd07eb7dc987d2240b6508fc7c9de4a382bf058a8908188581873fc68"
+    },
+    {
+      "path": "src-tauri/src/ocr.rs",
+      "bytes": 4928,
+      "sha256": "40469fb30279d1406b2f940349ea26a7b7700fa1ab5c8de6b91248852dcccdf9"
+    },
+    {
+      "path": "src-tauri/src/pdfcraft.rs",
+      "bytes": 25112,
+      "sha256": "8e52a1f9cfeeeab7acf2c74a803c3aec0601d8b01a3707f0cfa5fd16a94c050c"
+    },
+    {
+      "path": "src-tauri/src/translation.rs",
+      "bytes": 3357,
+      "sha256": "1f5c41fef4ab6f90d631bab9f64fcabf2976aab9ea25bd3f8cb40a152850f535"
+    },
+    {
+      "path": "src-tauri/tauri.conf.json",
+      "bytes": 1025,
+      "sha256": "faef5784bd7426b9cc03ed875a24b5eb50ada1b15ebcafedc679349a6c71721d"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/assets/fonts/DancingScript.ttf",
+      "bytes": 133636,
+      "sha256": "21808625578fe8d8cd10cb684be546dca077b27cd03a53a2f1ec11dc743c924c"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/assets/fonts/OFL-DancingScript.txt",
+      "bytes": 4443,
+      "sha256": "6f090277c00af96651ce6dbcc38ff1591047a3bffef486e80b6a32e8276a8201"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/ATTRIBUTION.md",
+      "bytes": 76644,
+      "sha256": "7f92fd641e68eaaa9c5f4bf4df1ddf16cca0414ee04abc06c1aa14f822642d2e"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/CANS-INTEGRATION.md",
+      "bytes": 698,
+      "sha256": "a480ee2c65f14436138163c57f4427826dcd950f51a875379a1ef83ff6138c39"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/Cargo.toml",
+      "bytes": 1653,
+      "sha256": "a22225a021b69c94deb73575d284b5e4d05c25d2dd6236c826c4c5d4d999afef"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/annot/Cargo.toml",
+      "bytes": 373,
+      "sha256": "64ed09ad5c0c98e3031b7f7a303405673edeba35f6335add5a8f0ff9bfff5fa3"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/annot/README.md",
+      "bytes": 2217,
+      "sha256": "675464c02bbbb4b3b17c4ee1ef6658a89c4c834aebb215bb0c9b9cf1079eceff"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/annot/src/appearance.rs",
+      "bytes": 33506,
+      "sha256": "ef9cf9522962e08069048f1a68feb8c709cb28c011cf4bb5bce3b0c417841f34"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/annot/src/lib.rs",
+      "bytes": 71133,
+      "sha256": "231e6e5508c82cb93ad41055c0dd60e851c0beeea2dbeb6a7d44e4680ffe06a4"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/annot/src/links.rs",
+      "bytes": 12732,
+      "sha256": "19e7b79b81d176a4655ce481b897cbf6799ddd16edc28f60101ed79357f40d72"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/annot/src/tests.rs",
+      "bytes": 33551,
+      "sha256": "a80c193b797a81819b48bdd73bd967bd8407e7edb4f383c231ef57d5ef9d6336"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/content/Cargo.toml",
+      "bytes": 328,
+      "sha256": "e6cb1507a25ddc21e22c89e805a7a933cd44909ae74883c0b69a7e9cd47bb11a"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/content/README.md",
+      "bytes": 642,
+      "sha256": "726785efa65ae5da39d23279e8c40031138e7e74d62032fd244610e804261897"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/content/src/lib.rs",
+      "bytes": 9719,
+      "sha256": "4a52b018f2644ca84caa70eff5e5baa1fb43e5e953f04deb9cec198448c9ba87"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/content/src/tests.rs",
+      "bytes": 2827,
+      "sha256": "797788843d286fa8eb0e7a5fe5effb6628222d068bfa98dab8a8eadfba00f1c2"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/Cargo.toml",
+      "bytes": 382,
+      "sha256": "0e0cf950fefecc2e65f9e8c6a8928b46dedd331127aa4a00d17e728a6891d351"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/examples/cosinfo.rs",
+      "bytes": 1689,
+      "sha256": "6a85f31baae4f8634f63bd0224e8e8bad3d738658419a7bf205a0e64a498fa1d"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/examples/protect.rs",
+      "bytes": 1004,
+      "sha256": "42131a778e5a512eb7dc045786c57009da1993f8944488c9308bbf8f8e8ee238"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/src/document.rs",
+      "bytes": 51090,
+      "sha256": "66e7f0b549ac1b6bb3938155e038c84e85b10bff7235298c1df5105370f16048"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/src/lib.rs",
+      "bytes": 1919,
+      "sha256": "f46153029cf86a3ceae11b5de67d3e8ade7c8534cff479cb5c706d523a24b4b5"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/src/object.rs",
+      "bytes": 11784,
+      "sha256": "c1c084ac2a50a5305bea07347a16b63ac0c89c7d2e424e01777ef670367c9e7f"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/src/parser.rs",
+      "bytes": 19744,
+      "sha256": "6ba365331e1bf99019e77e798ee0b3f6db0e15380109d37f4210db6cfbc32dfe"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/src/security.rs",
+      "bytes": 5649,
+      "sha256": "5c0ee9c5f564c31005f6373e49fa9a9868c28cf6ee6670bf9d01b16f95d36813"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/src/writer.rs",
+      "bytes": 21955,
+      "sha256": "e5c9edebf1c1cd841f2c0a3287af2fb775f7e9697b9081fdb31b97aae3416f3f"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/tests/corpus.rs",
+      "bytes": 7780,
+      "sha256": "fd0449e37989e331fe3c2f4987dc0acb236581734afb1cc15715ca99f4f24712"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/tests/encryption.rs",
+      "bytes": 10262,
+      "sha256": "5bd2bfae60a26a20e47b1912576848f635b91bd6ce2a18f97b9413528709558d"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/cos/tests/writer.rs",
+      "bytes": 8040,
+      "sha256": "8725448fbf58bbd67b5de490bb650c34d2d76723131f4564e4a425bbba0bf646"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/crypt/Cargo.toml",
+      "bytes": 411,
+      "sha256": "2482a2b11b3ed884bbc16766430b8d874dfff20ae19a1a52f4d1d38eb57d9b3c"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/crypt/src/aes_cbc.rs",
+      "bytes": 2796,
+      "sha256": "459d1558b9c7964debec5a19d282cb6bb3e18fdf2cb904154c12f0eb90fc4dd1"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/crypt/src/lib.rs",
+      "bytes": 22253,
+      "sha256": "740784edc4e5cc8178c6fd65d7d4ed1f490a841d851535b338dc896c88a28b2a"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/crypt/src/rc4.rs",
+      "bytes": 716,
+      "sha256": "fe2a980f40ea0c46bf2e915e8a2ca843a8277a52e8192800b8f1b427cbc62eb8"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/crypt/src/tests.rs",
+      "bytes": 7716,
+      "sha256": "385b3895556ebbee7cb4c7edf322401cf11cd65fc1acd3da23a9ca479e12ac71"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/Cargo.toml",
+      "bytes": 388,
+      "sha256": "79cbd85e8041187edf6525480209dc288586c34574066ad8220ba83a8c2dac90"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/fuzz/.gitignore",
+      "bytes": 48,
+      "sha256": "f70e1c78716e7ef6c4211d6ca9a4c4e6847314662fc8786b16156e3e94f9f99d"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/fuzz/Cargo.toml",
+      "bytes": 448,
+      "sha256": "35934e19270c221abcda33373eeec86ec9cd51e2815f4ca3803ff63faf75e01e"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/fuzz/fuzz_targets/decode.rs",
+      "bytes": 1354,
+      "sha256": "661c478d83575c758b7d6da46dd40d35ad3deabeffba26f15f8ae2a3149bce2c"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/README.md",
+      "bytes": 4034,
+      "sha256": "220616295ddeafa6d4f01a91e22e16a728094fbcce66acc6ebfd403a348b1b28"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/src/ascii85.rs",
+      "bytes": 5792,
+      "sha256": "0ed5ca4c28d42b34c13c005d2ee8b29d9d69c6e598943044ae34c2b129005429"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/src/asciihex.rs",
+      "bytes": 3262,
+      "sha256": "64645ec8619a32b631f7ad0f84565b63fe09bddae9ba468ea25d5f5929264c92"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/src/flate.rs",
+      "bytes": 6759,
+      "sha256": "6b23a0bb3131c84bbca12fe5ea3054203c3aec99619ce425d50cd2b9188e0077"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/src/lib.rs",
+      "bytes": 13193,
+      "sha256": "3457a1d2f8ada68c13ec671dd6a3ef258150e4fa819474a8e61bd0204ecd9462"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/src/lzw.rs",
+      "bytes": 10548,
+      "sha256": "ec7fdc87aa8712fce2525d0b7d069909072c8d0285cba4f689e10e42ad8f1f1f"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/src/predictor.rs",
+      "bytes": 12568,
+      "sha256": "7f52da2fc29adacc98cb3c08d48e3855a27c0ebefb7eb26b248a5d4d9a67633b"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/src/runlength.rs",
+      "bytes": 3909,
+      "sha256": "052b4aa6003ade7905b80edbdaef868cf510c816297e72be0ac985f8046516d6"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/tests/proptests.proptest-regressions",
+      "bytes": 3527,
+      "sha256": "959cc6b57deafd7a05014c2c93094cf7898ca3a779ae80c0832f0eaed0b0aa42"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/filters/tests/proptests.rs",
+      "bytes": 6353,
+      "sha256": "ed4cfafdcd6b5d0de53fa2773b6a8a8edd29eb52dd98e8f481010f6c13a3e5c7"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/fonts/build.rs",
+      "bytes": 2769,
+      "sha256": "0188829cc3e719a58ba0d161303e53bb208bea802f8d5bd9fe76d4ad9fcd88f0"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/fonts/Cargo.toml",
+      "bytes": 418,
+      "sha256": "9593a446833566f20973cb05d2be47a1f074257365566bf50cc9e7c352aea4d6"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/fonts/README.md",
+      "bytes": 1791,
+      "sha256": "c648e3e8aa5efbc9463522db1f5de093186798fcc56f7411c35b13b6c18c16c3"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/fonts/src/craft.rs",
+      "bytes": 3943,
+      "sha256": "d68b2736fa1c581fcc350765ce6735431addeb992040bf08a339da23110e100b"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/fonts/src/encodings.rs",
+      "bytes": 8938,
+      "sha256": "97e331eafc42d0f55023d1eff98926bb75371ba34ada64794c2f3040b382f776"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/fonts/src/lib.rs",
+      "bytes": 4385,
+      "sha256": "387ed14761aec371eed83c53ba394639d874ed19afa183066f272c61302db5b9"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/fonts/src/pdf.rs",
+      "bytes": 24361,
+      "sha256": "afa721f5b0616c7fe31d02ea6306e1d27d3e69bdfb8616244b41692a91e4e717"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/fonts/src/script.rs",
+      "bytes": 7244,
+      "sha256": "4946e5844457dd5b83a6a2f6c46fdc88813f3c06df7f7503846c70088bdd652b"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/forms/Cargo.toml",
+      "bytes": 462,
+      "sha256": "995adba8110054c654f57f2ee504cefbd68dbe6bbf4d6ed664507280a34ac52f"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/forms/README.md",
+      "bytes": 2317,
+      "sha256": "f39359703c5baac0a55ae89a8594257b0709ea66dd9937a4c12644e687bc16aa"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/forms/src/actions.rs",
+      "bytes": 10211,
+      "sha256": "41371b4eb2f2ab3e7659f2b9766931a87eb9a13d047f7c31d3968e90adffc6ea"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/forms/src/af.rs",
+      "bytes": 46961,
+      "sha256": "0323bd28e84e52ac8ea4c71a1f59eb2e117f3437d12e3e5a95754af20dd04ba0"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/forms/src/appearance.rs",
+      "bytes": 18069,
+      "sha256": "d42da54222632b3ec8a4acd2781b8d5f7135251e3d775e5838ea42b5942edca9"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/forms/src/author.rs",
+      "bytes": 46905,
+      "sha256": "5439fb91d5ecac632e6d5ead764a8d93ed9bee7002293b8352d03f24c9d311be"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/forms/src/detect.rs",
+      "bytes": 10677,
+      "sha256": "82914bb0c38b6741a4da9102c8b2de8bf9be6e236f44a1192da0be7c7fed1b62"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/forms/src/lib.rs",
+      "bytes": 38546,
+      "sha256": "2a45d305ff589cdf6677ff5b36e0751cc81dab4d7aa1b58c225c40f459584a28"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/forms/src/scripting.rs",
+      "bytes": 12539,
+      "sha256": "46a4a8df5317fda3187c412b347602fdf99f938e49ba804c1a18ea6b52b663bf"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/forms/src/tests.rs",
+      "bytes": 40411,
+      "sha256": "77f6816d4b1a954cbb6ebb269ed6e60f63e0c88e73a2cb72f683dcccc40fe6fa"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/geom/Cargo.toml",
+      "bytes": 243,
+      "sha256": "1ec70c7e82799548d2c61d40ba21e030a2318c10900efdcc4debb6872d37c17e"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/geom/src/lib.rs",
+      "bytes": 1888,
+      "sha256": "22bbf40760840143987b613830e657fdccf045c28f6ba6a681f68d0d5a254471"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/model/Cargo.toml",
+      "bytes": 306,
+      "sha256": "399d228516d72cc042306a16244819310806e450758a6f456fc613d4814e2c91"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/model/README.md",
+      "bytes": 660,
+      "sha256": "65463ca191bec8453ea51cf4a5619d49da09788ae82261bf822cd897948db06c"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/model/src/lib.rs",
+      "bytes": 6637,
+      "sha256": "3a7f0a76341004624335ad00e39c713c1fed94a6ee34ba60f3c0dec1e47b7003"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/optimize/Cargo.toml",
+      "bytes": 678,
+      "sha256": "ebb35f32627d9c7dbb7eb0740eef4c9e60d34dd6ca6276dd7197301410773b50"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/optimize/README.md",
+      "bytes": 1160,
+      "sha256": "61e5220f5fe997efaa78dfafb28efd7e09493d928eb6be85b755668d0efa4ac2"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/optimize/src/audit.rs",
+      "bytes": 9124,
+      "sha256": "4d84fe7bca406f469f848bfac4ea18e102ed2e03b681335afc0cddc35f54baf8"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/optimize/src/images.rs",
+      "bytes": 13593,
+      "sha256": "7ecad76c61b611f888d2430cf523450da77998b4481b1fed5a99eb66b9ffe97d"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/optimize/src/lib.rs",
+      "bytes": 8200,
+      "sha256": "ca90fc41558c77e29557b1d50a9ccf1ed79853165448b70ee1e914b1eaee8f70"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/optimize/src/links.rs",
+      "bytes": 8856,
+      "sha256": "2ebfb74dd6a218ccc9ccc846fa9fe39766dca11b55dc890945ec8628579686f9"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/optimize/tests/optimize.rs",
+      "bytes": 13779,
+      "sha256": "5628dfed63a4a05a98e11d49c3928581c022f5f6e3e2d104ba240d94e12ddaa3"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/organize/Cargo.toml",
+      "bytes": 339,
+      "sha256": "0c89d3ef25bb014d459baf169e573aa7c9a72522362444ad7fbe7a9ac05ed3f1"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/organize/src/boxes.rs",
+      "bytes": 4952,
+      "sha256": "bd8ce685d67c1261ee7ebe66f4344b66723fa7e69335296eca0c8c316d2a18ac"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/organize/src/dedupe.rs",
+      "bytes": 13819,
+      "sha256": "2d37a1cb6979159281e3eabc7927d3227fc28ff525e41ad67bf18bd690eacec1"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/organize/src/import.rs",
+      "bytes": 31893,
+      "sha256": "67d11eed9614148fa9ac969525a487c2c8667ada43b6d7b91e7a3318135b19aa"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/organize/src/labels.rs",
+      "bytes": 8974,
+      "sha256": "93f42202343f150cbf73ee50d4cdea24bf88251ae16a790710aeefdd54045450"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/organize/src/lib.rs",
+      "bytes": 16096,
+      "sha256": "7be41e061a4bfffe67d056ccdcf1c1af71faee3d33f4af6d9a7d9a77da765197"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/organize/src/outline.rs",
+      "bytes": 11759,
+      "sha256": "93d47d4f78578dcfad78689b0f48e92ced36a9e4cb177fcdd28c37976b5a9c8d"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/organize/src/tests.rs",
+      "bytes": 37632,
+      "sha256": "2966140235fb2aaa4501f55b3293e609618749d7e3b9a2438e0388b1dd6de761"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/organize/src/view.rs",
+      "bytes": 10141,
+      "sha256": "d2984a91673ff560b9dd470bb2793a72a170f7589fde5010af1ffa19358c9a4a"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/xfdf/Cargo.toml",
+      "bytes": 504,
+      "sha256": "a16d9b23e4e63d73ad92a60e794db5476f90b98fe0ebd48dfa416c18fa07e1b0"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/xfdf/README.md",
+      "bytes": 1258,
+      "sha256": "3dd1d71ace57fcdcc31399805c97f15cd9a24cea52604de76819b1f7cefe4759"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/xfdf/src/lib.rs",
+      "bytes": 38908,
+      "sha256": "8038c740e35b8cb5aad5f50ab62c8238661bb1d79023192c5c44d9e804644149"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/crates/xfdf/src/tests.rs",
+      "bytes": 9212,
+      "sha256": "aa5a92446981e9f74be2e56cc5a38ae795e2131f207b19f7e80d416ef1f15262"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/LICENSE-APACHE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/LICENSE-MIT",
+      "bytes": 1100,
+      "sha256": "cd7032ea33b71427f188e34ffb4aee9d6868a57fd196037c5c8b2be03a2a0352"
+    },
+    {
+      "path": "src-tauri/vendor/pdfcraft/NOTICE",
+      "bytes": 3671,
+      "sha256": "424ecb90f3bd76e75ae3e0c5f0c9db8d6c9fbb5feeb73c5856150133d2338bc9"
+    },
+    {
+      "path": "public/cans.svg",
+      "bytes": 267,
+      "sha256": "efa091c3a38fc92885fb45d6727e3ac10dc1003edc9be84832f81b4473e641b8"
+    },
+    {
+      "path": "public/cmaps/78-EUC-H.bcmap",
+      "bytes": 2404,
+      "sha256": "d92a261336dc18b8c03a46eb4d462382d33f4338fa195d303256b2031434c874"
+    },
+    {
+      "path": "public/cmaps/78-EUC-V.bcmap",
+      "bytes": 173,
+      "sha256": "61670bebc4e4827b67230c054fd0d820d6e30c3584d02e386804e62bbedc032a"
+    },
+    {
+      "path": "public/cmaps/78-H.bcmap",
+      "bytes": 2379,
+      "sha256": "ece6415b853d61e1b2560165151407d35cf16e6556932b85a13ea75276b77402"
+    },
+    {
+      "path": "public/cmaps/78-RKSJ-H.bcmap",
+      "bytes": 2398,
+      "sha256": "696b1f973c97623496703809eaaa5f9b40696c77540057413f4b826a08edfa7b"
+    },
+    {
+      "path": "public/cmaps/78-RKSJ-V.bcmap",
+      "bytes": 173,
+      "sha256": "53cb6d560ab377da48cf65d6dcacb0bdb31f13fab7066c580de38c12a73a7ff9"
+    },
+    {
+      "path": "public/cmaps/78-V.bcmap",
+      "bytes": 169,
+      "sha256": "289000f02fd34872b6975503217f33abae6bee676e7d28f640473a67c8db1712"
+    },
+    {
+      "path": "public/cmaps/78ms-RKSJ-H.bcmap",
+      "bytes": 2651,
+      "sha256": "a2442595218f5f8bd8e1b42188e368587d876cfe0cc4cd87196f077c878f72e2"
+    },
+    {
+      "path": "public/cmaps/78ms-RKSJ-V.bcmap",
+      "bytes": 290,
+      "sha256": "f8ddceba96bfd9d3740bd1789ee30d1f47c78371520a8084f71f7df58f19be0b"
+    },
+    {
+      "path": "public/cmaps/83pv-RKSJ-H.bcmap",
+      "bytes": 905,
+      "sha256": "44040051ec818fe09b9703472bea72efd2759d5eeb5ff0d77c718d6bb5e6d1df"
+    },
+    {
+      "path": "public/cmaps/90ms-RKSJ-H.bcmap",
+      "bytes": 721,
+      "sha256": "c13e043e85ff715b75bb03801e8fd0fb8f3a75e4a48496faa6baaf92b5b48ba1"
+    },
+    {
+      "path": "public/cmaps/90ms-RKSJ-V.bcmap",
+      "bytes": 290,
+      "sha256": "499bb916ce1adbe4289b6e5811f4dc20eb238cdc2ffad20cf26ae56716885bab"
+    },
+    {
+      "path": "public/cmaps/90msp-RKSJ-H.bcmap",
+      "bytes": 715,
+      "sha256": "7b8b3b8bbf821702e9a4df9f3596ce292380c8c1b0925dedadbb4e4b2d80498b"
+    },
+    {
+      "path": "public/cmaps/90msp-RKSJ-V.bcmap",
+      "bytes": 291,
+      "sha256": "6296c2b5c07dca8128e96d5296d621a3268803d4fa0e5812a21e52fe2802aacb"
+    },
+    {
+      "path": "public/cmaps/90pv-RKSJ-H.bcmap",
+      "bytes": 982,
+      "sha256": "fb5103f03d3a34547e18d316e52b6d9b26e485c662999222f84d2ba54c2e4fa8"
+    },
+    {
+      "path": "public/cmaps/90pv-RKSJ-V.bcmap",
+      "bytes": 260,
+      "sha256": "7bcb5ad2ba55b9662ce379e16c2d9cc2b82d621a579807353741172e4af615c2"
+    },
+    {
+      "path": "public/cmaps/Add-H.bcmap",
+      "bytes": 2419,
+      "sha256": "a2ffab28b990998181bcca9b0e914bb2207820f100ae31d5c469444892e5ad8e"
+    },
+    {
+      "path": "public/cmaps/Add-RKSJ-H.bcmap",
+      "bytes": 2413,
+      "sha256": "b29f4b52e2465d0485856d5e69f1ba69927deb2848d8fd328c8035583b35bb7e"
+    },
+    {
+      "path": "public/cmaps/Add-RKSJ-V.bcmap",
+      "bytes": 287,
+      "sha256": "2aa2232c283a3f5d0997c2834a36cead0b79ce2657944cfeed08140c293460ff"
+    },
+    {
+      "path": "public/cmaps/Add-V.bcmap",
+      "bytes": 282,
+      "sha256": "25125d3b1be64e86b2df5b3344170b45a42bcaa0b46e43a34314ef73c166e542"
+    },
+    {
+      "path": "public/cmaps/Adobe-CNS1-0.bcmap",
+      "bytes": 317,
+      "sha256": "8c65be9d51a9f269a547dc12460707aaf4031ab67ebe8a2900f4b4cc6b3e450e"
+    },
+    {
+      "path": "public/cmaps/Adobe-CNS1-1.bcmap",
+      "bytes": 371,
+      "sha256": "73152bc1a59cc594b414ac6068be48e5512b96ae85920c40e32a99269fdb0c04"
+    },
+    {
+      "path": "public/cmaps/Adobe-CNS1-2.bcmap",
+      "bytes": 376,
+      "sha256": "a1b8d353bdef9584c820464e8f1c9e2013d64ebf433cba0aa831dddf515818c2"
+    },
+    {
+      "path": "public/cmaps/Adobe-CNS1-3.bcmap",
+      "bytes": 401,
+      "sha256": "2ffc0c75c79fafde506163d3c08c390d183251009f3fbf6ae50d1167d14b9570"
+    },
+    {
+      "path": "public/cmaps/Adobe-CNS1-4.bcmap",
+      "bytes": 405,
+      "sha256": "98a1f470c878c6b9691a4d7aef776af8ac9b55f5587c9fafa00547f3bf655716"
+    },
+    {
+      "path": "public/cmaps/Adobe-CNS1-5.bcmap",
+      "bytes": 406,
+      "sha256": "ddd6e29955eb8cb545f2ebd09c628c3bbda5023256eda1b728f743c75fb77829"
+    },
+    {
+      "path": "public/cmaps/Adobe-CNS1-6.bcmap",
+      "bytes": 406,
+      "sha256": "317bb2db71e0e5b7b0c47b75de1da915c2e22f65f0c0861507f9ca7ba238f8a2"
+    },
+    {
+      "path": "public/cmaps/Adobe-CNS1-UCS2.bcmap",
+      "bytes": 41193,
+      "sha256": "e665837f2197c6bd08cd8955ad4d6932cee2398e2e328b25b00e6bfb3bd72af9"
+    },
+    {
+      "path": "public/cmaps/Adobe-GB1-0.bcmap",
+      "bytes": 217,
+      "sha256": "8b81cce8a11d510e505704953cfa4e4ab080c1a0cab991145a3512ee433946b9"
+    },
+    {
+      "path": "public/cmaps/Adobe-GB1-1.bcmap",
+      "bytes": 250,
+      "sha256": "0426983081788ec7202703e71f1efa4b860f75b936994236010b39d89251a81e"
+    },
+    {
+      "path": "public/cmaps/Adobe-GB1-2.bcmap",
+      "bytes": 465,
+      "sha256": "e67b37a83b160ab3831306a71a605893b24454ee81ac9b6123bf2d3984d268d5"
+    },
+    {
+      "path": "public/cmaps/Adobe-GB1-3.bcmap",
+      "bytes": 470,
+      "sha256": "aa299afc3e12a28726147305f191be28c7498078c8b182ece7886ac79cd99078"
+    },
+    {
+      "path": "public/cmaps/Adobe-GB1-4.bcmap",
+      "bytes": 601,
+      "sha256": "8fbd7d74c2ddb1350c1cecce54a73fde3f5453093d4bed445283ec0033d2097f"
+    },
+    {
+      "path": "public/cmaps/Adobe-GB1-5.bcmap",
+      "bytes": 625,
+      "sha256": "c22cb2fcff24112fa31dab2111bdc51957006576d31aad5a25e67793ac01428c"
+    },
+    {
+      "path": "public/cmaps/Adobe-GB1-UCS2.bcmap",
+      "bytes": 33974,
+      "sha256": "20507620260c0c935c35afc1e70e5888aa7125d5ec7ffc03cef1959feb2c1641"
+    },
+    {
+      "path": "public/cmaps/Adobe-Japan1-0.bcmap",
+      "bytes": 225,
+      "sha256": "464f08905236f5703b1f5cf8358767c8b18e6bcc808840d081f1de2c7ab38134"
+    },
+    {
+      "path": "public/cmaps/Adobe-Japan1-1.bcmap",
+      "bytes": 226,
+      "sha256": "4c823848722187d1ffe75ae3f5f9126ccd2d7895a05fad14c919fb119e037008"
+    },
+    {
+      "path": "public/cmaps/Adobe-Japan1-2.bcmap",
+      "bytes": 233,
+      "sha256": "7810fb808e367e70429e90a9478fe6a3fdc3e214f25c7582ce9c2da6a242315c"
+    },
+    {
+      "path": "public/cmaps/Adobe-Japan1-3.bcmap",
+      "bytes": 242,
+      "sha256": "84deb1828711ad3d390c9899c38abce1bf619d65ff7bf1a326ec95acc45f08f8"
+    },
+    {
+      "path": "public/cmaps/Adobe-Japan1-4.bcmap",
+      "bytes": 337,
+      "sha256": "3f8a4f974919c2b8bae5d10175ffa2673be140481e00840542c85d48ef184067"
+    },
+    {
+      "path": "public/cmaps/Adobe-Japan1-5.bcmap",
+      "bytes": 430,
+      "sha256": "1d3ce4ff28d977f8cf37a912ae4ec811f4175c3167b1ec0b2567feec3e79e1db"
+    },
+    {
+      "path": "public/cmaps/Adobe-Japan1-6.bcmap",
+      "bytes": 485,
+      "sha256": "5609797b9401b30be72ef9645da62a87829f058c3be4b5c623383119f584b1d9"
+    },
+    {
+      "path": "public/cmaps/Adobe-Japan1-UCS2.bcmap",
+      "bytes": 40951,
+      "sha256": "66c5d0dc4964f4093e77b194023f3a0f689324028ec8330e1e1d0570bcba7c2f"
+    },
+    {
+      "path": "public/cmaps/Adobe-Korea1-0.bcmap",
+      "bytes": 241,
+      "sha256": "dfb8c3874f0e5a8c3acf597d2c12d2b63e90bc5e4f0fce990ec4c56077d80b32"
+    },
+    {
+      "path": "public/cmaps/Adobe-Korea1-1.bcmap",
+      "bytes": 386,
+      "sha256": "62f277b7b1c441c007797ae707d5c37258d029ce4661a2b911e2e1ee35e6adc1"
+    },
+    {
+      "path": "public/cmaps/Adobe-Korea1-2.bcmap",
+      "bytes": 391,
+      "sha256": "1d77068af462f96d7ad28ad7e7d43eef6423c685b479d7dc25ff5df38db0380d"
+    },
+    {
+      "path": "public/cmaps/Adobe-Korea1-UCS2.bcmap",
+      "bytes": 23293,
+      "sha256": "857b723088be97255053562bfa41bd1075a7f7910d3bab59a0645c8bbc7060ff"
+    },
+    {
+      "path": "public/cmaps/B5-H.bcmap",
+      "bytes": 1086,
+      "sha256": "718ad0ffbef4c34f8f3f31292c462e519cd567a5511fc8b346c60010d64f4ef9"
+    },
+    {
+      "path": "public/cmaps/B5-V.bcmap",
+      "bytes": 142,
+      "sha256": "b5c37383517477620ced927b6b4ffd4f4cc6230d8051b5b46a21d6768e07f7d8"
+    },
+    {
+      "path": "public/cmaps/B5pc-H.bcmap",
+      "bytes": 1099,
+      "sha256": "bab6028aead1d6149400e904ab10cfd319082d826473ed4c582c8eeed920f17e"
+    },
+    {
+      "path": "public/cmaps/B5pc-V.bcmap",
+      "bytes": 144,
+      "sha256": "41543142b9767f3b76133899fc8453282b01ad3c653acaeea42d78c5a7d08c63"
+    },
+    {
+      "path": "public/cmaps/CNS-EUC-H.bcmap",
+      "bytes": 1780,
+      "sha256": "e8f89cd61e6486b948205da46499d659ed0aed949b7095fd3c8e95ffe2b0e7a9"
+    },
+    {
+      "path": "public/cmaps/CNS-EUC-V.bcmap",
+      "bytes": 1920,
+      "sha256": "cae422bec2ac6dbe86bf921cec942bacd2d0b733ffcca5f91b3ba14e917025a0"
+    },
+    {
+      "path": "public/cmaps/CNS1-H.bcmap",
+      "bytes": 706,
+      "sha256": "e8487971ab20cd16f3de3e8ac56ec994b72b658ad113f2818239dfd5108f501a"
+    },
+    {
+      "path": "public/cmaps/CNS1-V.bcmap",
+      "bytes": 143,
+      "sha256": "42df8076aaa7574505e7304af83a3323ec032c4177d64b1309db8c043d594a8a"
+    },
+    {
+      "path": "public/cmaps/CNS2-H.bcmap",
+      "bytes": 504,
+      "sha256": "bc6024d274d440f0625c69e25f37036ef6cb6689432ceaa160d3432a2a716ca7"
+    },
+    {
+      "path": "public/cmaps/CNS2-V.bcmap",
+      "bytes": 93,
+      "sha256": "2e4f70a8afd23a121030fc2e5b5f3816e903b11e7ba8b8c09654b31c80399c38"
+    },
+    {
+      "path": "public/cmaps/ETen-B5-H.bcmap",
+      "bytes": 1125,
+      "sha256": "87ee6b3f5bfda5fe26fa35431264c7d73070d10dbbf398a75185d63ae322c18d"
+    },
+    {
+      "path": "public/cmaps/ETen-B5-V.bcmap",
+      "bytes": 158,
+      "sha256": "47dc0d2c21e3bde317947aec1675ceabc1d5460a60bf9c24334b8c407a17172c"
+    },
+    {
+      "path": "public/cmaps/ETenms-B5-H.bcmap",
+      "bytes": 101,
+      "sha256": "d5f5a73da4173b7da9a3a20e16f26f9cd5d12deb1553409919e0cec6fd37fdee"
+    },
+    {
+      "path": "public/cmaps/ETenms-B5-V.bcmap",
+      "bytes": 172,
+      "sha256": "18252fca90f472f479af1bddd60d6ab51c8e1b55dcf6845951426504934543e0"
+    },
+    {
+      "path": "public/cmaps/ETHK-B5-H.bcmap",
+      "bytes": 4426,
+      "sha256": "d2f10fa519336bc4efcc7b6deb9604b75429946b40d82e311cb3a97a1994c89a"
+    },
+    {
+      "path": "public/cmaps/ETHK-B5-V.bcmap",
+      "bytes": 158,
+      "sha256": "1fea3fd0d9f0f679f80505800851ef2e4131d81127e18c006938ffa2f4c8b247"
+    },
+    {
+      "path": "public/cmaps/EUC-H.bcmap",
+      "bytes": 578,
+      "sha256": "f9939cd57fccdc65c5d9f4c205fd497ebdbd283643308da5663801a8c1d9c595"
+    },
+    {
+      "path": "public/cmaps/EUC-V.bcmap",
+      "bytes": 170,
+      "sha256": "1283a50a706507c4436da83ede9ad7a4440be25378f2e96f6c81a430081426a3"
+    },
+    {
+      "path": "public/cmaps/Ext-H.bcmap",
+      "bytes": 2536,
+      "sha256": "4000ed4e61a1c668ef453bbd0603cfa383defa793abd46a57ed870d7f527350b"
+    },
+    {
+      "path": "public/cmaps/Ext-RKSJ-H.bcmap",
+      "bytes": 2542,
+      "sha256": "e0d2f0df337660e73813238dd4a725f11f0621b90f3273857db253d0e7694caa"
+    },
+    {
+      "path": "public/cmaps/Ext-RKSJ-V.bcmap",
+      "bytes": 218,
+      "sha256": "f617a22b6d67febb187990952006c91a9f5a4db21155d268c656252d0c21985d"
+    },
+    {
+      "path": "public/cmaps/Ext-V.bcmap",
+      "bytes": 215,
+      "sha256": "c2087fb845a9e3acea0c2922cd40e6af67e11957bec74dcd597f1285edd490ce"
+    },
+    {
+      "path": "public/cmaps/GB-EUC-H.bcmap",
+      "bytes": 549,
+      "sha256": "928bad06fd84a48f5ba7150d7716609119fb660f2aaa73eccad81ddab9b9d203"
+    },
+    {
+      "path": "public/cmaps/GB-EUC-V.bcmap",
+      "bytes": 179,
+      "sha256": "a9ad88ac2479da529b16dc48abc5952332e27bc355335f91df5729a587533324"
+    },
+    {
+      "path": "public/cmaps/GB-H.bcmap",
+      "bytes": 528,
+      "sha256": "1018c777a8910b5bb46d7d54a4aee9d51ca5cff8addb2b41c969d9101cb3fd1c"
+    },
+    {
+      "path": "public/cmaps/GB-V.bcmap",
+      "bytes": 175,
+      "sha256": "0b96789143c0bbf9f1641ae7165b3456dccd14dabffcbb0bd654d5bf6f94f863"
+    },
+    {
+      "path": "public/cmaps/GBK-EUC-H.bcmap",
+      "bytes": 14692,
+      "sha256": "2103fed28650ede096a2281104a1a8a4304dae0db414342c636867522307123b"
+    },
+    {
+      "path": "public/cmaps/GBK-EUC-V.bcmap",
+      "bytes": 180,
+      "sha256": "a7fd35dd14d9dbdb955f34e6c0630618b6620dfd09d4283b2f65a65ce77fcaea"
+    },
+    {
+      "path": "public/cmaps/GBK2K-H.bcmap",
+      "bytes": 19662,
+      "sha256": "3d919ae72af16c5cc6846ec87a4326a9f125e493c59d3628429d35c2c95fe8c4"
+    },
+    {
+      "path": "public/cmaps/GBK2K-V.bcmap",
+      "bytes": 219,
+      "sha256": "b927fdfd595c07ce9158bf2ec13f4641b2e83b01c70989dadfabd6ed7c6ac2dc"
+    },
+    {
+      "path": "public/cmaps/GBKp-EUC-H.bcmap",
+      "bytes": 14686,
+      "sha256": "d15ebd8e81fb4fe8a244f1b1e877922e03500ac69eddf5001093e502430451d2"
+    },
+    {
+      "path": "public/cmaps/GBKp-EUC-V.bcmap",
+      "bytes": 181,
+      "sha256": "fdc736d46e642625dccc8ad8c59f2c69fc7db7a13f2e799c6c6b779e707bb97a"
+    },
+    {
+      "path": "public/cmaps/GBpc-EUC-H.bcmap",
+      "bytes": 557,
+      "sha256": "3c4a4eb82f05abe51f6650985c630e180438bfdd491318f5d20d2ec29236e1c3"
+    },
+    {
+      "path": "public/cmaps/GBpc-EUC-V.bcmap",
+      "bytes": 181,
+      "sha256": "215bdfa2842705624b4cf4cd29b8e3c720f1e192365e0305c11030a424c84d7c"
+    },
+    {
+      "path": "public/cmaps/GBT-EUC-H.bcmap",
+      "bytes": 7290,
+      "sha256": "dc5f44e48a39f3367ae28665027d8ab1d8cedb5a9dcc5068a900acd6709f60f9"
+    },
+    {
+      "path": "public/cmaps/GBT-EUC-V.bcmap",
+      "bytes": 180,
+      "sha256": "a1ad24e63653b8aa388c18fa5e498f007564e43dde699a9f91ccb4645c999be8"
+    },
+    {
+      "path": "public/cmaps/GBT-H.bcmap",
+      "bytes": 7269,
+      "sha256": "8afda745a505763f3ff54c8126eeb48ef376ea9ed07d9f42ff9a22c5c547ec57"
+    },
+    {
+      "path": "public/cmaps/GBT-V.bcmap",
+      "bytes": 176,
+      "sha256": "cdc2ec5c3c7c7033290c9a8894878202f08674eb9b1ae7d36218430326768771"
+    },
+    {
+      "path": "public/cmaps/GBTpc-EUC-H.bcmap",
+      "bytes": 7298,
+      "sha256": "7b23e2f7bfdb6c918f567b7324bf858f398bd8cd5f268d74ece19a3c91bf4f32"
+    },
+    {
+      "path": "public/cmaps/GBTpc-EUC-V.bcmap",
+      "bytes": 182,
+      "sha256": "d7a1b13ead9ab511cf2cd01de6ce8b02aa8e8767e84895337d7a3b67f039f93b"
+    },
+    {
+      "path": "public/cmaps/H.bcmap",
+      "bytes": 553,
+      "sha256": "a0233e21047ec00b852125b243cbcf30abee511155b6d8159c24f944384bc9ee"
+    },
+    {
+      "path": "public/cmaps/Hankaku.bcmap",
+      "bytes": 132,
+      "sha256": "b454701f7aecd7856769016dfd04ca64280a060f2c67a2466d50b4395d24974e"
+    },
+    {
+      "path": "public/cmaps/Hiragana.bcmap",
+      "bytes": 124,
+      "sha256": "2ed669394756dd9458651cd9995ab29ab691ecb7686659003306cdf22767a414"
+    },
+    {
+      "path": "public/cmaps/HKdla-B5-H.bcmap",
+      "bytes": 2654,
+      "sha256": "5242bce18fb13ab4cc59b146a03eba36e4ce42667eeff09e10981a9d2aa4996b"
+    },
+    {
+      "path": "public/cmaps/HKdla-B5-V.bcmap",
+      "bytes": 148,
+      "sha256": "2e0537f786c0791d41a925f72bad2d4e7268aa6cbf15a1400a722672cec38e2c"
+    },
+    {
+      "path": "public/cmaps/HKdlb-B5-H.bcmap",
+      "bytes": 2414,
+      "sha256": "fdc8159984bf5dbe475c0d5dfcb621ecee4dea07c38c668bd77f4c679e23b9b3"
+    },
+    {
+      "path": "public/cmaps/HKdlb-B5-V.bcmap",
+      "bytes": 148,
+      "sha256": "b249eb9dcb915ab45057c5d4d7aa55ef88d0efbb092af6bae0b2d4705d139abf"
+    },
+    {
+      "path": "public/cmaps/HKgccs-B5-H.bcmap",
+      "bytes": 2292,
+      "sha256": "ab64c7fc5e9b2e97750cc4f269b0da14fd8649e49151b7598c8df86599bac591"
+    },
+    {
+      "path": "public/cmaps/HKgccs-B5-V.bcmap",
+      "bytes": 149,
+      "sha256": "02ebdf7cdffb5395fb21091cd58a013a18ae5388922822f9dc6292ef16b98956"
+    },
+    {
+      "path": "public/cmaps/HKm314-B5-H.bcmap",
+      "bytes": 1772,
+      "sha256": "bfd8bbde6b36a9da4c1c902c74121a30d9807a7079a00eeea218be6adc223cef"
+    },
+    {
+      "path": "public/cmaps/HKm314-B5-V.bcmap",
+      "bytes": 149,
+      "sha256": "2a64a815cfb6fdd480674a868762e3d161fda17543b20c9209978559f0667164"
+    },
+    {
+      "path": "public/cmaps/HKm471-B5-H.bcmap",
+      "bytes": 2171,
+      "sha256": "49d7c037758826b5b6c0fa329c35bbf25d3943197754e72ecd30c6fb04d745e6"
+    },
+    {
+      "path": "public/cmaps/HKm471-B5-V.bcmap",
+      "bytes": 149,
+      "sha256": "be24c109e78aa4fe3c1f27d30aab3ed0741e783fa1b6b6c2719741072b54b132"
+    },
+    {
+      "path": "public/cmaps/HKscs-B5-H.bcmap",
+      "bytes": 4437,
+      "sha256": "08599378f41d96b40537adef6e6edcc4a787bc63f5accf47c026df4905a13914"
+    },
+    {
+      "path": "public/cmaps/HKscs-B5-V.bcmap",
+      "bytes": 159,
+      "sha256": "d073542b7dad1c4cbf01c1af5f0cd13218d1281a491956e310c55702fc8705c4"
+    },
+    {
+      "path": "public/cmaps/Katakana.bcmap",
+      "bytes": 100,
+      "sha256": "3b6ca6642fbf8822da00d5e58a8aa275216d5c32dbf2bd73e934197fc9fc5c53"
+    },
+    {
+      "path": "public/cmaps/KSC-EUC-H.bcmap",
+      "bytes": 1848,
+      "sha256": "6784e16dbc5861c036c23d3e55f0d4ba0975a3e464da0ee8e49bcfff0be070c4"
+    },
+    {
+      "path": "public/cmaps/KSC-EUC-V.bcmap",
+      "bytes": 164,
+      "sha256": "fdb36bad85e9924823d49db374067988e024cf80fc894711f2c9178951cbbe95"
+    },
+    {
+      "path": "public/cmaps/KSC-H.bcmap",
+      "bytes": 1831,
+      "sha256": "c1f6d61f1d3304fd539a65ae72624fa567ecc3853bf52e283958a7a2515b3eee"
+    },
+    {
+      "path": "public/cmaps/KSC-Johab-H.bcmap",
+      "bytes": 16791,
+      "sha256": "939993d213f68db763bf156217c217ae23af082b91a0eacecf3d11eb4ff8ef8c"
+    },
+    {
+      "path": "public/cmaps/KSC-Johab-V.bcmap",
+      "bytes": 166,
+      "sha256": "5d61967aac0e666def721e8b8d0fed8f95a879a14f2e76ce516c3d11c621e519"
+    },
+    {
+      "path": "public/cmaps/KSC-V.bcmap",
+      "bytes": 160,
+      "sha256": "d7da5afd9f1fe74816d79c9325f0139a4efb6438664ebfdf9a7aa92f3034360f"
+    },
+    {
+      "path": "public/cmaps/KSCms-UHC-H.bcmap",
+      "bytes": 2787,
+      "sha256": "5b70d8f6a4fa9e2283dc649f0ff95d906d56efbee50a20e8d2faec3a8fed078e"
+    },
+    {
+      "path": "public/cmaps/KSCms-UHC-HW-H.bcmap",
+      "bytes": 2789,
+      "sha256": "a5e6ba22aceb02fdedee11bfb9ed138463d89e85b87810b9f075b469d936f8ec"
+    },
+    {
+      "path": "public/cmaps/KSCms-UHC-HW-V.bcmap",
+      "bytes": 169,
+      "sha256": "890332a6a26880d463a12f2a6ff048bf9cf7e45077cfb1ca8815b89baa7bf411"
+    },
+    {
+      "path": "public/cmaps/KSCms-UHC-V.bcmap",
+      "bytes": 166,
+      "sha256": "1631b531c9a40c8cbe24c2317dba107362e49fa6e18af620414d627c111d570c"
+    },
+    {
+      "path": "public/cmaps/KSCpc-EUC-H.bcmap",
+      "bytes": 2024,
+      "sha256": "709480682c55cedbb0124b9960d78e28febeee0df2e34607d61aac6601647ec7"
+    },
+    {
+      "path": "public/cmaps/KSCpc-EUC-V.bcmap",
+      "bytes": 166,
+      "sha256": "031707887d6fc2378a36cdb6775334fd7a236c3f95048d8436abf43fe26fc49d"
+    },
+    {
+      "path": "public/cmaps/LICENSE",
+      "bytes": 2080,
+      "sha256": "aa92ab5a472974865a96fd4a4e9c13bb41bf6fe1b309cb6b8da48bc9e19839a2"
+    },
+    {
+      "path": "public/cmaps/NWP-H.bcmap",
+      "bytes": 2765,
+      "sha256": "286c6c9e335da330928a01edc3c97a3a623f1f7f3c42762b0a7dc2f651b1a78f"
+    },
+    {
+      "path": "public/cmaps/NWP-V.bcmap",
+      "bytes": 252,
+      "sha256": "3a75fb7b59adfb172710758c425d8ac6c93fd5360a64dd4afd5dd04e60ab4b4d"
+    },
+    {
+      "path": "public/cmaps/RKSJ-H.bcmap",
+      "bytes": 534,
+      "sha256": "a70de61a22a898f693f02cc011c3e3cff2e10aaa7cddb4661e456a21ae859f78"
+    },
+    {
+      "path": "public/cmaps/RKSJ-V.bcmap",
+      "bytes": 170,
+      "sha256": "68c1a64506471a524ea5cfc3b3a9f8f70031989a6bd95427b1351f33ccf50b06"
+    },
+    {
+      "path": "public/cmaps/Roman.bcmap",
+      "bytes": 96,
+      "sha256": "1c6b3ef9d9e5cb1aa329142ce9414b90f9b6d7f9182a2a9e927378dab8f0d43f"
+    },
+    {
+      "path": "public/cmaps/UniCNS-UCS2-H.bcmap",
+      "bytes": 48280,
+      "sha256": "779428116752f34e2490a1941d24e4634c71e3c22d053b811d2090ae2fb3c704"
+    },
+    {
+      "path": "public/cmaps/UniCNS-UCS2-V.bcmap",
+      "bytes": 156,
+      "sha256": "1e5cc184b850ea44abc2df8ae5674279df668e8edf5e2a1a2ea2bd77adbd280f"
+    },
+    {
+      "path": "public/cmaps/UniCNS-UTF16-H.bcmap",
+      "bytes": 50419,
+      "sha256": "32ff139b3c7b91d6ad25f994701f3ce7b242906022c418fd73e6493fc228bfe5"
+    },
+    {
+      "path": "public/cmaps/UniCNS-UTF16-V.bcmap",
+      "bytes": 156,
+      "sha256": "278eb1e68d1a236c60ef59472cf0176ee0d45f364285e76ca12419a08d46fb9a"
+    },
+    {
+      "path": "public/cmaps/UniCNS-UTF32-H.bcmap",
+      "bytes": 52679,
+      "sha256": "bf26eb67fe19ee5ba915799e80ca72408400aa8342fdf6a244a4f44de8f97336"
+    },
+    {
+      "path": "public/cmaps/UniCNS-UTF32-V.bcmap",
+      "bytes": 160,
+      "sha256": "f7da3caf83ceb1cb37936fa10700d9ba6e9c3f72c5bc9724e3ac79bff0c0179e"
+    },
+    {
+      "path": "public/cmaps/UniCNS-UTF8-H.bcmap",
+      "bytes": 53629,
+      "sha256": "2f2a742bcd1a84a148a4a518b9eed51a8f9c6ca5ed3bc5e2e41fff97de5dc2d8"
+    },
+    {
+      "path": "public/cmaps/UniCNS-UTF8-V.bcmap",
+      "bytes": 157,
+      "sha256": "b7c3f10780a8c62dd1c8ff6c30dc1e4e23b6cdc87c3a96fcd514cc98ffd3af9d"
+    },
+    {
+      "path": "public/cmaps/UniGB-UCS2-H.bcmap",
+      "bytes": 43366,
+      "sha256": "9201569b402e81ad8860650bd86350c4fa28e5dd5971f05fcacaf40f51de18ed"
+    },
+    {
+      "path": "public/cmaps/UniGB-UCS2-V.bcmap",
+      "bytes": 193,
+      "sha256": "f10282335e4d64203bc2a653a3a47d745ec76c8ae04549f4d50180c1899be216"
+    },
+    {
+      "path": "public/cmaps/UniGB-UTF16-H.bcmap",
+      "bytes": 44086,
+      "sha256": "386fd39581245c034da016a92d23f3df1117d169f996100050b264fc09a84e35"
+    },
+    {
+      "path": "public/cmaps/UniGB-UTF16-V.bcmap",
+      "bytes": 178,
+      "sha256": "0473cfbba612b92dd9918f0ff8aee9112897c48e0ffdc0eb82da3144ed8ea84a"
+    },
+    {
+      "path": "public/cmaps/UniGB-UTF32-H.bcmap",
+      "bytes": 45738,
+      "sha256": "f48a145dc4e3ed1dca1dde7111716a72306a2a4191ab05c6bae3a5c3a961cd2f"
+    },
+    {
+      "path": "public/cmaps/UniGB-UTF32-V.bcmap",
+      "bytes": 182,
+      "sha256": "106acc49b7118bdef944e32107b4f348238f3929a0a15d3b7aab7b9101535993"
+    },
+    {
+      "path": "public/cmaps/UniGB-UTF8-H.bcmap",
+      "bytes": 46837,
+      "sha256": "f217b439c80ee5fa1bc2cf6d1defcc319f8d84483d166a00ee199e05a68588df"
+    },
+    {
+      "path": "public/cmaps/UniGB-UTF8-V.bcmap",
+      "bytes": 181,
+      "sha256": "a64df947632878eacc532fa193c735c92a383b7d66e6f8374ac193af7c64fc63"
+    },
+    {
+      "path": "public/cmaps/UniJIS-UCS2-H.bcmap",
+      "bytes": 25439,
+      "sha256": "ad2352f40870880fbf7f8ee5abadff743fbd025fbf9830b8ada472d1c5e4da0b"
+    },
+    {
+      "path": "public/cmaps/UniJIS-UCS2-HW-H.bcmap",
+      "bytes": 119,
+      "sha256": "16e87edca954177c0881c874859d6783220925d821b5cdfb8755b61ebd93f9ce"
+    },
+    {
+      "path": "public/cmaps/UniJIS-UCS2-HW-V.bcmap",
+      "bytes": 680,
+      "sha256": "1973457e2c0192819947e56068625b34fb9a72ecc8a476ce6d7eaae5f73e2e5c"
+    },
+    {
+      "path": "public/cmaps/UniJIS-UCS2-V.bcmap",
+      "bytes": 664,
+      "sha256": "42a133d8e2ce9dd6d2288018e01592d2bf2435b326d39b94ea0b6e6a44ac33d3"
+    },
+    {
+      "path": "public/cmaps/UniJIS-UTF16-H.bcmap",
+      "bytes": 39443,
+      "sha256": "f6a89c5688978548c83fcee990e205bc63c74274d5c69b49032a3bd4c49a05ee"
+    },
+    {
+      "path": "public/cmaps/UniJIS-UTF16-V.bcmap",
+      "bytes": 643,
+      "sha256": "c67126fc7c73850855186bb0d6482ac0a365057e0b58778c4ab9f234683fef53"
+    },
+    {
+      "path": "public/cmaps/UniJIS-UTF32-H.bcmap",
+      "bytes": 40539,
+      "sha256": "96195950ce0fe24443d8eb426fa6b88534ec421d7bef9046f0b2362809cfba73"
+    },
+    {
+      "path": "public/cmaps/UniJIS-UTF32-V.bcmap",
+      "bytes": 677,
+      "sha256": "ed4dafda402bdd19c4d5d8bf2ab41473c0f86f384552b4c7b963d6627daedeb1"
+    },
+    {
+      "path": "public/cmaps/UniJIS-UTF8-H.bcmap",
+      "bytes": 41695,
+      "sha256": "798fb0bf06ab0788d1f6a91c2db7de581612eef03c628f10e8f7ecd8f70ab448"
+    },
+    {
+      "path": "public/cmaps/UniJIS-UTF8-V.bcmap",
+      "bytes": 678,
+      "sha256": "1021611424f913b2df0bfdbe94bd327c04e224ec89d8e821c6501ea3d21f4265"
+    },
+    {
+      "path": "public/cmaps/UniJIS2004-UTF16-H.bcmap",
+      "bytes": 39534,
+      "sha256": "710a32d7cb43fd6bd9dbf30da5971f8c941590f74441e208d852c2be0e74cc97"
+    },
+    {
+      "path": "public/cmaps/UniJIS2004-UTF16-V.bcmap",
+      "bytes": 647,
+      "sha256": "3b149aff5c5707b57fb3215d1775852c8b1f413ec0f679ea628f25cf87fe098d"
+    },
+    {
+      "path": "public/cmaps/UniJIS2004-UTF32-H.bcmap",
+      "bytes": 40630,
+      "sha256": "8d2658e18741af7937d586a57c89729a6fec0d86121197c1f8518aa58b29cdfb"
+    },
+    {
+      "path": "public/cmaps/UniJIS2004-UTF32-V.bcmap",
+      "bytes": 681,
+      "sha256": "6dd475782f2897648a683c48b2fa015a15b8f06856760bddc8a17a63f418bacb"
+    },
+    {
+      "path": "public/cmaps/UniJIS2004-UTF8-H.bcmap",
+      "bytes": 41779,
+      "sha256": "691c614ce432b3e62486efb54e5c84c6da5afe9b51b21253bde4758feb484183"
+    },
+    {
+      "path": "public/cmaps/UniJIS2004-UTF8-V.bcmap",
+      "bytes": 682,
+      "sha256": "40a8c7ea2d46711c5f78fc9a878a7db68b1543ba5cd60ecf14f519a2deb829b7"
+    },
+    {
+      "path": "public/cmaps/UniJISPro-UCS2-HW-V.bcmap",
+      "bytes": 705,
+      "sha256": "6826f94d789d7bf1960668c1c5819c34c9585c1b23152fbc19ee81c7df08524b"
+    },
+    {
+      "path": "public/cmaps/UniJISPro-UCS2-V.bcmap",
+      "bytes": 689,
+      "sha256": "493de9fd1a08f7946065d8ab58f0c3c9fe489f5a0f109f2d05a3169b4bd5789f"
+    },
+    {
+      "path": "public/cmaps/UniJISPro-UTF8-V.bcmap",
+      "bytes": 726,
+      "sha256": "6181d382cf736c5e09492e8be9f26f31fa25b7462253f23ab16646af432cad81"
+    },
+    {
+      "path": "public/cmaps/UniJISX0213-UTF32-H.bcmap",
+      "bytes": 40517,
+      "sha256": "692044e1fb33445668632bc9fe7386805c624864be1ddeb29d65bb0c99fc630c"
+    },
+    {
+      "path": "public/cmaps/UniJISX0213-UTF32-V.bcmap",
+      "bytes": 684,
+      "sha256": "dd54e16ca7bffb3a886242549b2bf7d78a277087f7c60d2636f118c21a5b0646"
+    },
+    {
+      "path": "public/cmaps/UniJISX02132004-UTF32-H.bcmap",
+      "bytes": 40608,
+      "sha256": "f80ea5a989be30ccda5a8804baef6d3b4b044d2b339bf8b31c671b2466171cf6"
+    },
+    {
+      "path": "public/cmaps/UniJISX02132004-UTF32-V.bcmap",
+      "bytes": 688,
+      "sha256": "94c22bd99e771c5fbe0dd8dc39850570d4db0075074aca13e272813edd7cc57f"
+    },
+    {
+      "path": "public/cmaps/UniKS-UCS2-H.bcmap",
+      "bytes": 25783,
+      "sha256": "a1081396ab4adb6f4a5b6c15f896963c244c1c9bcb65ce5616d06096a1b9811c"
+    },
+    {
+      "path": "public/cmaps/UniKS-UCS2-V.bcmap",
+      "bytes": 178,
+      "sha256": "6cab547431958fbdc1d401d06ebd4dd61a73f5509a10f974df32bcbca11a2e43"
+    },
+    {
+      "path": "public/cmaps/UniKS-UTF16-H.bcmap",
+      "bytes": 26327,
+      "sha256": "42d35b396286499dfae1737a07adb3a64500df37b426580bfb1d3ea872938519"
+    },
+    {
+      "path": "public/cmaps/UniKS-UTF16-V.bcmap",
+      "bytes": 164,
+      "sha256": "5bdb7390c80dcc136cb47d41dc7460082560969c17322ee739fe3020fb642410"
+    },
+    {
+      "path": "public/cmaps/UniKS-UTF32-H.bcmap",
+      "bytes": 26451,
+      "sha256": "3a01ec51ed1b828101351e337ffb8250abe11880032e5210f881170fed2588de"
+    },
+    {
+      "path": "public/cmaps/UniKS-UTF32-V.bcmap",
+      "bytes": 168,
+      "sha256": "dfda895eceaed081af030dbbb962b49629eea817fc3c02bae15db93d0c68acd7"
+    },
+    {
+      "path": "public/cmaps/UniKS-UTF8-H.bcmap",
+      "bytes": 27790,
+      "sha256": "3fac9c65145f72d7d42157a3b9c5ed6904632184e6a0888f2b828699afd2002f"
+    },
+    {
+      "path": "public/cmaps/UniKS-UTF8-V.bcmap",
+      "bytes": 169,
+      "sha256": "9ecc6cf30dd354b9778ddba163b6cc7302b087ce9f39d1ba73472d2b75ed13ca"
+    },
+    {
+      "path": "public/cmaps/V.bcmap",
+      "bytes": 166,
+      "sha256": "b9ad1c0c09ff14bca52f9a28a9767eb857ad0e8946e64ba14c7387a7eb69866a"
+    },
+    {
+      "path": "public/cmaps/WP-Symbol.bcmap",
+      "bytes": 179,
+      "sha256": "543923bead225732aba30976690ee89095a19628277b5863efecc2c728d5d7bf"
+    },
+    {
+      "path": "public/fonts/LICENSE-NOTO-SERIF.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "public/fonts/LICENSE.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "public/fonts/NotoSansCJKsc-Regular.otf",
+      "bytes": 16437364,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "path": "public/fonts/NotoSerifCJKsc-Regular.otf",
+      "bytes": 24543080,
+      "sha256": "2a2eae2628df83556c54018c41e20fa532c1b862c5256ae8b3f23feb918d12ca"
+    },
+    {
+      "path": "public/licenses/pdfcraft/ATTRIBUTION.md",
+      "bytes": 76644,
+      "sha256": "7f92fd641e68eaaa9c5f4bf4df1ddf16cca0414ee04abc06c1aa14f822642d2e"
+    },
+    {
+      "path": "public/licenses/pdfcraft/CANS-INTEGRATION.md",
+      "bytes": 698,
+      "sha256": "a480ee2c65f14436138163c57f4427826dcd950f51a875379a1ef83ff6138c39"
+    },
+    {
+      "path": "public/licenses/pdfcraft/LICENSE-APACHE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "public/licenses/pdfcraft/LICENSE-MIT",
+      "bytes": 1100,
+      "sha256": "cd7032ea33b71427f188e34ffb4aee9d6868a57fd196037c5c8b2be03a2a0352"
+    },
+    {
+      "path": "public/licenses/pdfcraft/NOTICE",
+      "bytes": 3671,
+      "sha256": "424ecb90f3bd76e75ae3e0c5f0c9db8d6c9fbb5feeb73c5856150133d2338bc9"
+    },
+    {
+      "path": "public/licenses/pdfcraft/OFL-DancingScript.txt",
+      "bytes": 4443,
+      "sha256": "6f090277c00af96651ce6dbcc38ff1591047a3bffef486e80b6a32e8276a8201"
+    },
+    {
+      "path": "public/ocr/MODELS-NOTICE.txt",
+      "bytes": 600,
+      "sha256": "765c364f671c5517f8db9bba6365951cd15c7c8f4164b1ec3eed018f740d785d"
+    },
+    {
+      "path": "public/ocr/TESSERACT-CORE-LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+    },
+    {
+      "path": "public/ocr/tesseract-core-lstm.wasm.js",
+      "bytes": 3896484,
+      "sha256": "eef5f8b2f8e20e150680b20adaec4a60babafee3adbe8a94583c81fee46e8680"
+    },
+    {
+      "path": "public/ocr/tesseract-core-relaxedsimd-lstm.wasm.js",
+      "bytes": 3905767,
+      "sha256": "861a536cf9ef8e63cb644d57bab39c388f37f7d6b6f60024b741c5f6b39a59b3"
+    },
+    {
+      "path": "public/ocr/tesseract-core-simd-lstm.wasm.js",
+      "bytes": 3899472,
+      "sha256": "c58b46a4c796c0b8afccf77591d5b875b6896b45d402bbce8caa6f5362447b38"
+    },
+    {
+      "path": "public/ocr/TESSERACT-JS-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "public/ocr/worker-entry.js",
+      "bytes": 549,
+      "sha256": "1a74a2f7762b3f04afb93b6a5101caa793e6edfca4c3a8ef9ee41de3b92daf5d"
+    },
+    {
+      "path": "public/ocr/worker.min.js",
+      "bytes": 111307,
+      "sha256": "576b7df7e3393e137e51849357c9adb53fe7ac1bb69bfa06cf3d61520f182c6d"
+    },
+    {
+      "path": "public/original-text/LICENSE.pdfium.txt",
+      "bytes": 12880,
+      "sha256": "b033ffb8fc19c23ca81f7e98019ab658cc6f4cf14587c7c6a2a67fb0f6ac0f5a"
+    },
+    {
+      "path": "public/original-text/LICENSE.txt",
+      "bytes": 1075,
+      "sha256": "f5031b66adba8ef5ef57666deff980a7f2ccff5c8a8c22a8117e854d2b8dfcd3"
+    },
+    {
+      "path": "public/samples/application.pdf",
+      "bytes": 2295,
+      "sha256": "b665c67686840d1ab1df39cf8aa0c28212eb3d95926b4776f3202c93fcb04cd9"
+    },
+    {
+      "path": "public/standard_fonts/FoxitDingbats.pfb",
+      "bytes": 29513,
+      "sha256": "845c752392b6c914fb989c75a08b7792b88f542d2499042ef2889f8c814a16ed"
+    },
+    {
+      "path": "public/standard_fonts/FoxitFixed.pfb",
+      "bytes": 17597,
+      "sha256": "b6c8fe53f134b8b6d4578cd2d544df4cee9624c4efa8d51a560fb40ea296101b"
+    },
+    {
+      "path": "public/standard_fonts/FoxitFixedBold.pfb",
+      "bytes": 18055,
+      "sha256": "f1b7159702973f54fc86254ea38bcf3712b2a736eb3a0995751e9f4bb45ad603"
+    },
+    {
+      "path": "public/standard_fonts/FoxitFixedBoldItalic.pfb",
+      "bytes": 19151,
+      "sha256": "8a000945843bd31add06aee63bf9fd41b7578b4f3242a4b7cd46349ad9d24d4d"
+    },
+    {
+      "path": "public/standard_fonts/FoxitFixedItalic.pfb",
+      "bytes": 18746,
+      "sha256": "5007faf8320fa1fcc08b8894b356ad976f60b992ba29ee5272578bbdebaf3876"
+    },
+    {
+      "path": "public/standard_fonts/FoxitSerif.pfb",
+      "bytes": 19469,
+      "sha256": "4f57d2b9d884af8f907bf22df6019b52d86cbf6214fdbd02b1ae05472a543f35"
+    },
+    {
+      "path": "public/standard_fonts/FoxitSerifBold.pfb",
+      "bytes": 19395,
+      "sha256": "0bdf4b04e964139818d51eda03d566ba999fc3ba2421b1c6c51f9dc969022e80"
+    },
+    {
+      "path": "public/standard_fonts/FoxitSerifBoldItalic.pfb",
+      "bytes": 20733,
+      "sha256": "a406cac82583bf98175cb62c87ed5e95c45fbb34eece63a10b0a13e793cb2e10"
+    },
+    {
+      "path": "public/standard_fonts/FoxitSerifItalic.pfb",
+      "bytes": 21227,
+      "sha256": "610ae0687198045c4db5d1a6650fd5e92536631706382eb8b72e38df578d0ae9"
+    },
+    {
+      "path": "public/standard_fonts/FoxitSymbol.pfb",
+      "bytes": 16729,
+      "sha256": "47967d055530e7357088a08403115425643ec2cdfd6201ba8af0fbd7116c1539"
+    },
+    {
+      "path": "public/standard_fonts/LiberationSans-Bold.ttf",
+      "bytes": 137052,
+      "sha256": "361c61b82d575c5c35fd9157fda8b0194bcfcd0d88ea8521a4fb5dd53d33dddc"
+    },
+    {
+      "path": "public/standard_fonts/LiberationSans-BoldItalic.ttf",
+      "bytes": 135124,
+      "sha256": "a224075ac17495ad0a3af3bc0a419ac0704a8b3fd1095456201fb9b095fc281d"
+    },
+    {
+      "path": "public/standard_fonts/LiberationSans-Italic.ttf",
+      "bytes": 162036,
+      "sha256": "832b4406dbef23628800d3aaad21048534ac84d7e3ad955be83b8172ed8ef512"
+    },
+    {
+      "path": "public/standard_fonts/LiberationSans-Regular.ttf",
+      "bytes": 139512,
+      "sha256": "f8ace1f892b2bd9dc1792ba7f097fa7588f84fed48321480e04de5390828221f"
+    },
+    {
+      "path": "public/standard_fonts/LICENSE_FOXIT",
+      "bytes": 1553,
+      "sha256": "b578cdd2345840ada550bd12519533812320d5f1d21cf4c1c7e1b1b0a31c98b7"
+    },
+    {
+      "path": "public/standard_fonts/LICENSE_LIBERATION",
+      "bytes": 22154,
+      "sha256": "d2c4d5b3e115a519cb58eb691aa64538397e2611f9ebe801392cf9667997e7dc"
+    },
+    {
+      "path": "public/wasm/jbig2.wasm",
+      "bytes": 103671,
+      "sha256": "466f45c2a61a698152fb5400c27e56ff2ceb73dcb71fde3fc366a502308eaab0"
+    },
+    {
+      "path": "public/wasm/jbig2_nowasm_fallback.js",
+      "bytes": 152009,
+      "sha256": "68686ced624a48c42f84cdaa482ec44b72b0de4dc84a0df903af1fb7b45b5d9a"
+    },
+    {
+      "path": "public/wasm/LICENSE_JBIG2",
+      "bytes": 12862,
+      "sha256": "9e66b7f1b934a28b37f3bc4dac97915de1674271e79a0a88182a18ed9731b4d1"
+    },
+    {
+      "path": "public/wasm/LICENSE_OPENJPEG",
+      "bytes": 2112,
+      "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+    },
+    {
+      "path": "public/wasm/LICENSE_PDFJS_JBIG2",
+      "bytes": 555,
+      "sha256": "aad3cce09842e00e9e11ad5e8fef8cc02fbc3a3768fe2f007443b9cee37aaee5"
+    },
+    {
+      "path": "public/wasm/LICENSE_PDFJS_OPENJPEG",
+      "bytes": 1285,
+      "sha256": "717fc62da03292dbb4dd0c8280bd4ce7bb8550dcf31d772bc93455fb50313425"
+    },
+    {
+      "path": "public/wasm/LICENSE_PDFJS_QCMS",
+      "bytes": 1036,
+      "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+    },
+    {
+      "path": "public/wasm/LICENSE_QCMS",
+      "bytes": 1121,
+      "sha256": "36d847ae882f6574ebc72f56a4f354e4f104fde4a584373496482e97d52d31bc"
+    },
+    {
+      "path": "public/wasm/openjpeg.wasm",
+      "bytes": 251131,
+      "sha256": "95e5002597af0824004aa57b1900fe019715db389e37640b1e58395e42f00cc5"
+    },
+    {
+      "path": "public/wasm/openjpeg_nowasm_fallback.js",
+      "bytes": 445781,
+      "sha256": "9047b34b6bc142d85e4b0aa1b08b0b9baad4c6f8b7ac87641b9e8f90eb6fd23e"
+    },
+    {
+      "path": "public/wasm/qcms_bg.wasm",
+      "bytes": 96589,
+      "sha256": "663d86126d5f5fcb1c61490f94353e2a8375660b8c5498ab3ebab5a34b08800e"
+    },
+    {
+      "path": "public/wasm/quickjs-eval.js",
+      "bytes": 6232,
+      "sha256": "fe7930418e869791ce892567dbd0bc4698152b7e550b5cefa553992c56ddc325"
+    },
+    {
+      "path": "public/wasm/quickjs-eval.wasm",
+      "bytes": 469105,
+      "sha256": "7bcacc9f22cacf7e9b23866d2a6d1639693d40c7f144e41b7c69ed37ba9cbe8f"
+    },
+    {
+      "path": "scripts/copy-pdf-assets.mjs",
+      "bytes": 1103,
+      "sha256": "742083fe00773f8e2ddb2445a75e059ed6beec90ce7bf9a4dfd3a8065957014e"
+    },
+    {
+      "path": "scripts/fixtures.ts",
+      "bytes": 4224,
+      "sha256": "768813f2e3c295abd29b2e2b77b7df9757ec53efa4c51dfb44049e1450cd8aaa"
+    },
+    {
+      "path": "scripts/mock-translation-api.mjs",
+      "bytes": 2263,
+      "sha256": "9f975302b21d140eb426b0187f3d3184a2dd2ddb877d6005a2b3679b50bd8802"
+    },
+    {
+      "path": "scripts/ocr-smoke.ts",
+      "bytes": 2674,
+      "sha256": "a05fd1fa0f421d05bd502940e50febe1c6f1624f7c92198666420c2a816f7654"
+    },
+    {
+      "path": "scripts/pdfcraft-verify.ts",
+      "bytes": 4809,
+      "sha256": "705fe27fd9fde040861520264d55b46f30a24fc52417783b0bc163ab263fd0a7"
+    },
+    {
+      "path": "scripts/translation-render-qa.ts",
+      "bytes": 1584,
+      "sha256": "02cfb72f6d748242417ea94c9ce14673566badd36d2f7deebdba6b2df0603900"
+    },
+    {
+      "path": "scripts/vendor-pdfcraft.py",
+      "bytes": 2757,
+      "sha256": "ea763157a12f0998c9a58849d7cc3f9af3ab0d50047932b3e0e89c2ef59a3df2"
+    },
+    {
+      "path": "tests/abortable.test.ts",
+      "bytes": 1680,
+      "sha256": "f9475834d76ddb149b65d9dd1a159fa42e5e561bd7545ac0ce8584816a49a80e"
+    },
+    {
+      "path": "tests/core.test.ts",
+      "bytes": 10674,
+      "sha256": "ad492da06068f3c31186840cc81695a8a23773454080e8b123c91ae9cb569cf5"
+    },
+    {
+      "path": "tests/editor-geometry.test.ts",
+      "bytes": 1903,
+      "sha256": "2cde589cfe2a151324d246b355075402e030ac0e3ed58250fb610e7d1f735418"
+    },
+    {
+      "path": "tests/fit.test.ts",
+      "bytes": 1091,
+      "sha256": "221992f599518c1533d1461a81f45b4af3292e0eff531ac03f094bfbc1fe40c9"
+    },
+    {
+      "path": "tests/fixtures/corrupt.pdf",
+      "bytes": 24,
+      "sha256": "31cbcfc63a965dded8e856dbb53e2b4ff135dc44282f2ceef24832d259831dfb"
+    },
+    {
+      "path": "tests/fixtures/form.pdf",
+      "bytes": 7266,
+      "sha256": "4a91ce70cce71d4684a895cf6e0a8f055e3bef839ce091064c8cf782a170940b"
+    },
+    {
+      "path": "tests/fixtures/perf-80.pdf",
+      "bytes": 1392,
+      "sha256": "968eb1869fdff2b8d009d27a5d33b776b933ffef0b89e503ad2c37e5c6ad6fd5"
+    },
+    {
+      "path": "tests/fixtures/plain.pdf",
+      "bytes": 2295,
+      "sha256": "bdb246f78af8e1b623b494924abef089d9b91dbc066f7b12c047d0adff1ef810"
+    },
+    {
+      "path": "tests/fixtures/script.pdf",
+      "bytes": 3581,
+      "sha256": "1ecc06eb7fc57873d4ff3f972be1c923deea24824d87bf80199936e70634664d"
+    },
+    {
+      "path": "tests/fixtures/signed.pdf",
+      "bytes": 3661,
+      "sha256": "2795cf129e78da1a047edb2a8ca599009ac670f9b72c34046994beb059f221bc"
+    },
+    {
+      "path": "tests/fixtures/tagged-qa.pdf",
+      "bytes": 2325,
+      "sha256": "22dd5d02b459ec04c21d52ee9e6edb27d03e30638c18c6a009f399880a7b6e9f"
+    },
+    {
+      "path": "tests/fixtures/xfa.pdf",
+      "bytes": 3724,
+      "sha256": "d0f52863d24a9436638a139dbce29e749a74189952800365ce1ff4f911d3c632"
+    },
+    {
+      "path": "tests/form-widgets.test.ts",
+      "bytes": 2753,
+      "sha256": "7d164bb6f353750d629df97e78f260ede5de2b41d12ae718e8b79e6ad089bbe8"
+    },
+    {
+      "path": "tests/lifecycle.test.ts",
+      "bytes": 2320,
+      "sha256": "34062da786ef7a3a16365fea614f207224e297b9e5afa2a4eb2b5a3b6f109b9e"
+    },
+    {
+      "path": "tests/native-save.test.ts",
+      "bytes": 1015,
+      "sha256": "dd02cf2a3d889f90ecb30ded13ee611800d0aefd9ba331376cf20ea355e26ae5"
+    },
+    {
+      "path": "tests/navigation-operation.test.ts",
+      "bytes": 1048,
+      "sha256": "1ab3c022bc830af7b0d2052816f35175394c99118b1684d7a08123efce5fa173"
+    },
+    {
+      "path": "tests/ocr-worker.test.ts",
+      "bytes": 1605,
+      "sha256": "eac38f39401c88e1c4b2ac1a63cd3e17a206ae7b7580aa01e0e9682a62357218"
+    },
+    {
+      "path": "tests/ocr.test.ts",
+      "bytes": 3565,
+      "sha256": "d9347fdb2a15f5cba3a9fcd713f49839c96652c1d4ddcafc1770df1b120fa293"
+    },
+    {
+      "path": "tests/open-document.test.ts",
+      "bytes": 3674,
+      "sha256": "02be00556665fe0f0622ddd31048782b6d29a54a068a952857454a986520046c"
+    },
+    {
+      "path": "tests/original-auto-apply.test.ts",
+      "bytes": 2888,
+      "sha256": "1545ba2f91c7fcc02b49f7fedb6c36aee48fbfab1006bc1982ea7c27a792cb0d"
+    },
+    {
+      "path": "tests/original-text.test.ts",
+      "bytes": 8496,
+      "sha256": "f3655e58f6ae4be3899ae213d4880011a289e07b4e7813c79d7dbba6950fe93f"
+    },
+    {
+      "path": "tests/outline.test.ts",
+      "bytes": 1523,
+      "sha256": "16b00c73863a2f437759e912e472dbdf913975f1cfeda8f8149be2aee19e8363"
+    },
+    {
+      "path": "tests/pdfcraft.test.ts",
+      "bytes": 1869,
+      "sha256": "2dea49d20afb9222ba5ac3a595126bd038448641d9f02792a8c0667134e21ad2"
+    },
+    {
+      "path": "tests/preview-document.test.ts",
+      "bytes": 3900,
+      "sha256": "dc9f3e953e9abfe1d4e007c78b4943c43e3ae6ae45fd1b65acf037ea1cff799c"
+    },
+    {
+      "path": "tests/README.md",
+      "bytes": 1167,
+      "sha256": "3e5d068957f2c45fd8a0e688f83c44169f5c2e5619096aefff1eb03555b370d6"
+    },
+    {
+      "path": "tests/search-cache.test.ts",
+      "bytes": 1680,
+      "sha256": "6810bd0ccf17ab77504f6cc13998badda3ed25bb8fbd8894e0bc00ccbc96dce5"
+    },
+    {
+      "path": "tests/support/output.ts",
+      "bytes": 535,
+      "sha256": "e3204ed12a7d5f97bbf3aeb67ddb75220b0fc5654222c18d29649ecbbdf01cf1"
+    },
+    {
+      "path": "tests/translation.test.ts",
+      "bytes": 11352,
+      "sha256": "e8c7df3e14275130f40917ff070f8f8895e6c326c91838164c973bf75bb0bd6b"
+    },
+    {
+      "path": "tests/write-fonts.test.ts",
+      "bytes": 2686,
+      "sha256": "c6c15fd44730177b32de792f7e5cb36b6b86b57155564b96d0c01be6209126b7"
+    },
+    {
+      "path": "docs/ANTIGRAVITY_HANDOFF.md",
+      "bytes": 14609,
+      "sha256": "e69df57513dec99842fd7f3070c59e874ba37b13e8caa1164b24fb7182a00518"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 4383,
+      "sha256": "b75c0023109e0236b08edfa4d9e1ada695963cb52296e7485c575103f026065c"
+    },
+    {
+      "path": "docs/code-audit-2026-10-10.md",
+      "bytes": 10124,
+      "sha256": "626dfd8fb3d189085626a0a47760cb4711dc07a6f35c691da8c40cf08f48cdd6"
+    },
+    {
+      "path": "docs/compatibility.md",
+      "bytes": 3992,
+      "sha256": "914b13a6556af9acc8d406b4ac2040125c950eeace6c9d8f920cb767f96ad686"
+    },
+    {
+      "path": "docs/core-cleanup-2026-10-10.md",
+      "bytes": 4316,
+      "sha256": "bd5bd0a2a33ea40553b06953343830deffd1c99aabc2f97dcbe3315235805e15"
+    },
+    {
+      "path": "docs/decisions.md",
+      "bytes": 2632,
+      "sha256": "6c3f3531fff42c90a3666e3c372879e342eae8cf6143b906b2d6a90e3bf04768"
+    },
+    {
+      "path": "docs/dependency-licenses.json",
+      "bytes": 1603,
+      "sha256": "89650a071c9a1707eb59f23f51d54de9fb38b4f7539a55089ba27270d164d7d4"
+    },
+    {
+      "path": "docs/font-sha256.json",
+      "bytes": 81,
+      "sha256": "72679622b7fa397be575701d0e99bb71fb1c3aa1f90f6df7d36994b6000b6114"
+    },
+    {
+      "path": "docs/handoff-validation.json",
+      "bytes": 4233,
+      "sha256": "3fbd55be9b0b460537213c8069f96aa4e5eba9fe027168be90e698270787fece"
+    },
+    {
+      "path": "docs/interaction-design.md",
+      "bytes": 3426,
+      "sha256": "a0805f39c353a29f6354f97447702896a7987b6e3adf68c09a93ea60809a3ffd"
+    },
+    {
+      "path": "docs/licenses.md",
+      "bytes": 1957,
+      "sha256": "56d6bcdc612c005ade8ef5679b4ba4add7a86bb88705ccd1091655226a94ccc4"
+    },
+    {
+      "path": "docs/maintenance-cleanup-2026-10-11.md",
+      "bytes": 3658,
+      "sha256": "9a00ee25b2a18c061b283700b2cc4e1a9282cb5702911854e66429c5a4082aeb"
+    },
+    {
+      "path": "docs/pdfcraft-integration.md",
+      "bytes": 5145,
+      "sha256": "b7c0a58f70c08f2979b7cea1b9b03e066d9f228f539a2c5e70ba4ab61086bd9d"
+    },
+    {
+      "path": "docs/screenshots/core-cleanup-reopened.png",
+      "bytes": 44450,
+      "sha256": "e0baf514fb5d451a7bbbf3ce05ddfc33c596cbbd571197365af7944ec8f05c45"
+    },
+    {
+      "path": "docs/screenshots/drag-optimized.png",
+      "bytes": 42648,
+      "sha256": "79d80fedd3cdbedacae5514f838b2456314df07128a81025b058ae488625521f"
+    },
+    {
+      "path": "docs/screenshots/inline-text-editing.png",
+      "bytes": 45963,
+      "sha256": "900ed1ffd649025b6748f38aa3ca65bb3404fe368c6db0194e5e9558f6318ea9"
+    },
+    {
+      "path": "docs/screenshots/ocr-applied.png",
+      "bytes": 32163,
+      "sha256": "05ef54b1c14474d47037f3c0efbe2bf8459a47e24df7d6412d9e4e7dfb39dd8e"
+    },
+    {
+      "path": "docs/screenshots/ocr-recognition.png",
+      "bytes": 58832,
+      "sha256": "5436ee3a80c0ea04e6b6b5e5dc19eb1ed231d53c0650f14bfe30471c4170dbd1"
+    },
+    {
+      "path": "docs/screenshots/original-auto-apply.png",
+      "bytes": 40836,
+      "sha256": "092adc52f3d3c4e7915b1a40d669588cdf5db8b91ebe2bbc6d80cb1cde27bef5"
+    },
+    {
+      "path": "docs/screenshots/original-before-focus.png",
+      "bytes": 33653,
+      "sha256": "264352e67c59d2870d69eb503165c9defc6a11f004f0636830a9c5b8385c27f3"
+    },
+    {
+      "path": "docs/screenshots/original-chinese-before-focus.png",
+      "bytes": 33223,
+      "sha256": "7e88145507fd9a61d9bf99b5f761cd4ac851c97e5e0576b9ee517042fd490b6d"
+    },
+    {
+      "path": "docs/screenshots/original-chinese-no-jump.png",
+      "bytes": 36325,
+      "sha256": "d633e0bee1102a65ec9e1746605d9b62cd49bfdbd24a1c06f6754daed3265edd"
+    },
+    {
+      "path": "docs/screenshots/original-no-jump.png",
+      "bytes": 36555,
+      "sha256": "1ffe5d254f861720a5554fb217032791474477a0425637ca93e64ff94c54a9a8"
+    },
+    {
+      "path": "docs/screenshots/original-text-edited.png",
+      "bytes": 33241,
+      "sha256": "fa42c331716bc7dc8b16189e330010955e5b9a53c2339620196b9ac9b0211cbe"
+    },
+    {
+      "path": "docs/screenshots/original-text-in-place-chinese.png",
+      "bytes": 36765,
+      "sha256": "93a99c33530798ebd7dc8e9c56d94d4aaa962cfa663623da5eba0dbda7115d4f"
+    },
+    {
+      "path": "docs/screenshots/original-text-in-place.png",
+      "bytes": 36312,
+      "sha256": "a2568294f8eb45d9c60786ae018964adf7825f801b757263aa576d71c4632494"
+    },
+    {
+      "path": "docs/screenshots/original-text-inline.png",
+      "bytes": 38821,
+      "sha256": "4ef460df85068d149588cab4579e4b8c52581866fb373a3108dcc15a5fc25875"
+    },
+    {
+      "path": "docs/screenshots/original-text-reopened.png",
+      "bytes": 33856,
+      "sha256": "7b777a5e742ebd3ed93283ab32c1ba81702ce7d6b739c1e907189d74a66c9d56"
+    },
+    {
+      "path": "docs/screenshots/original-typing.png",
+      "bytes": 36199,
+      "sha256": "93f66da605a1034364c1085ebfed15366cfff3b9cebf1cc0e435d9b0917eec56"
+    },
+    {
+      "path": "docs/screenshots/pdfcraft-annotations.png",
+      "bytes": 15892,
+      "sha256": "e87160c84eb3a792dcdd95f82786565d127e40ec23c544b951e4297ab4800cb6"
+    },
+    {
+      "path": "docs/screenshots/pdfcraft-result.png",
+      "bytes": 43726,
+      "sha256": "77b096df74fea0b4c743d5d2235619159c15582b2c78d54a8ff2abdace7a98e9"
+    },
+    {
+      "path": "docs/screenshots/pdfcraft-tools.png",
+      "bytes": 40256,
+      "sha256": "8a6f01690e2ae5589f13dd204209ef437d9c3eb0841df1162aa598c47626a6bf"
+    },
+    {
+      "path": "docs/screenshots/performance-audit.png",
+      "bytes": 35583,
+      "sha256": "b130de17028abb2b017813deba9f9ec99ef377b5e21fc79798a22b7deceeec80"
+    },
+    {
+      "path": "docs/screenshots/performance-ink.png",
+      "bytes": 34830,
+      "sha256": "1e1291b2ba64fa0eacfdaf2bb501d0df322e52260b292838ae7d005b4d6c8721"
+    },
+    {
+      "path": "docs/screenshots/performance-search-zoom.png",
+      "bytes": 46989,
+      "sha256": "bb7c97d8608716eebdd34a52859568a5e64e43c96a976668824bfcde1a2e4a83"
+    },
+    {
+      "path": "docs/screenshots/reader-reopened.png",
+      "bytes": 40317,
+      "sha256": "d187cd9f7f4d595963773a880973b3b6a4c693c0dfac3a78b69a91a69579fde2"
+    },
+    {
+      "path": "docs/screenshots/text-box-toolbar-zoom.png",
+      "bytes": 53555,
+      "sha256": "8eaa1af49d61a73f3c5287d8317209e6caac26a31140072566571dc11d075fe4"
+    },
+    {
+      "path": "docs/screenshots/translated-page-qa.png",
+      "bytes": 26017,
+      "sha256": "cb2644700a52b024a87793d5c5f031057efcda71ae4f562450496a654964d4f6"
+    },
+    {
+      "path": "docs/screenshots/translation-api.png",
+      "bytes": 65405,
+      "sha256": "c3ff72be394558b4a5e6aa27adf27363700978d97a158e47f15f4a4b584cd9a2"
+    },
+    {
+      "path": "docs/screenshots/translation-preflight.png",
+      "bytes": 53939,
+      "sha256": "9ea4e4e99bdc759ee92f21b174d90c9a5e821b27f901c53cd72a34f8a0dc20aa"
+    },
+    {
+      "path": "docs/screenshots/visible-original-edited.png",
+      "bytes": 36629,
+      "sha256": "ab7ab6061b71a75dec6dca2eb5de5842b1da13c877aa16f3f338886afa8590c6"
+    },
+    {
+      "path": "docs/screenshots/visible-original-reopened.png",
+      "bytes": 39106,
+      "sha256": "9c068c9c61b09d4dca4f87d70960df96cf0e6e1b5649f2a1c9eb700471fa53be"
+    },
+    {
+      "path": "docs/screenshots/workspace-commands.png",
+      "bytes": 20879,
+      "sha256": "0269a9f2002df456cd8a153b3fa17641e89e6998525e621a3c5a03e1a33ed6ab"
+    },
+    {
+      "path": "docs/screenshots/workspace-contextual-edit.png",
+      "bytes": 43914,
+      "sha256": "d3734216288f52277656bae707e5ea52de622f0d469b9bfa9de53c6e44e3c72b"
+    },
+    {
+      "path": "docs/screenshots/workspace-immersive.png",
+      "bytes": 34264,
+      "sha256": "9b151a8e45cc16874c0fc8509925258d5210cf6cb5ca9c449a36fd9484d8ee48"
+    },
+    {
+      "path": "docs/screenshots/workspace-no-bars.png",
+      "bytes": 30740,
+      "sha256": "0ac354da1421831c94d361bb6d80636c449b04939bbb72d91bb4e77cb7c26631"
+    },
+    {
+      "path": "docs/screenshots/workspace-redesign.png",
+      "bytes": 32897,
+      "sha256": "c9712ea324cb47e6b5158ada1578969bc45fb48d197bc415f29e503aa40198cb"
+    },
+    {
+      "path": "docs/screenshots/workspace-search.png",
+      "bytes": 32912,
+      "sha256": "edf28230764a19b47072d39a3b3cea0d2794cbfcf450d9f6e7b55df9e1d491cd"
+    },
+    {
+      "path": "docs/screenshots/workspace-welcome-cans.png",
+      "bytes": 17302,
+      "sha256": "4b5fc88db9f901fcc415b35aa82fc74ec3f71f8f5705557f5ba483ef3bc12e92"
+    },
+    {
+      "path": "docs/screenshots/workspace-welcome-minimal.png",
+      "bytes": 17183,
+      "sha256": "8971f2a31fe8bd76850163a559874a2fcb52b560121ca25f16fe7eecacc0f995"
+    },
+    {
+      "path": "docs/screenshots/workspace-welcome.png",
+      "bytes": 36904,
+      "sha256": "28ecc6d2cfe1684ad7f62d8db0c080a2331114644fffbb143453657cdae7b9c3"
+    },
+    {
+      "path": "docs/translation.md",
+      "bytes": 5226,
+      "sha256": "c4090c6e0550e759ebd3d460f90f851c67278bc01c3676b7c70b0a2a59ba7d56"
+    },
+    {
+      "path": "docs/verification.md",
+      "bytes": 27937,
+      "sha256": "af840f251e8d28797ffaefefab32fa44bed510acac414c20dfe079e4f9e00313"
+    },
+    {
+      "path": "docs/Whos_PDF_Whitepaper_v0.2.md",
+      "bytes": 21868,
+      "sha256": "adb237fdaba7014d91b392c6130bcf65369c6756b49b579e67eddc5cc2d847b1"
+    },
+    {
+      "path": "docs/windows-auto-apply.json",
+      "bytes": 334,
+      "sha256": "e69b5d2a14e75b16f8b806ce76bed10b71224072fb3252449e77addd22117bc5"
+    },
+    {
+      "path": "docs/windows-build.json",
+      "bytes": 516,
+      "sha256": "da5a7cbd760af5f19d573b1ae84f16d1c127cca0675995b5593a9e135cec9189"
+    },
+    {
+      "path": "docs/windows-core-cleanup.json",
+      "bytes": 397,
+      "sha256": "eb5ba5e0710245999b7ad1f90d5f7d36b8afd77fe2112772a03cb6b37ca4cb4a"
+    },
+    {
+      "path": "docs/windows-maintenance-cleanup.json",
+      "bytes": 471,
+      "sha256": "7e9bbc4060467152a20adc49b802a77e8d02a1f6373263accbcce94e15f606a4"
+    },
+    {
+      "path": "docs/windows-visible-text-fix.json",
+      "bytes": 332,
+      "sha256": "b9e5063934d56f0118b40ed5164de26876e41e34fd04ad4d578e7468ab5a89c5"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 345,
+      "sha256": "a433558cde1bd017b445ee6a1b98edd46741a41542481dfbe264ad8c440aac3e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 372,
+      "sha256": "3b179de0867ddb4ad6433055bff98dda07f654bd5e38e27a2134a03debc5df82"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1281,
+      "sha256": "bc5c5998321b8499916c83e325248271aec14dfafce6559e210a0ad33c09edad"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 82602,
+      "sha256": "1b23dfa0eb73370a88b661064044415fb7f2c9fef2c4bc135199ec7e6a71c0ab"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9685,
+      "sha256": "1a958c5cca851e555c4eae7cf8605eeffee4836924eeabe9aa3eb2411cad2abd"
+    },
+    {
+      "path": "tsconfig.check.json",
+      "bytes": 190,
+      "sha256": "cdc70835b34e7926dbf873dd525ff61ebd69148a598b4ab441f5111e179593a1"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 589,
+      "sha256": "82cbe3b13731c7d9fc5b603b29eaa02d9daff771bd404d83c89e5318e548d0a3"
+    },
+    {
+      "path": "tsconfig.node.json",
+      "bytes": 213,
+      "sha256": "9e2abb169ea87b7190613a1d4da57ca608463a453bd4231fa3aeee5e308370dd"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 801,
+      "sha256": "0667b579bd2e6f5a36e92ecac92c0feaefc0d5773d578bacd78003f81dfdc861"
+    }
+  ],
+  "addedAfterCopy": [
+    "README_MACOS.md",
+    "docs/macos-source-snapshot.json"
+  ],
+  "verification": {
+    "checkedAt": "2026-11-01T22:42:40.508Z",
+    "identicalCopiedFiles": 548,
+    "originalFilesUnchanged": true,
+    "localCargoPathsExist": true,
+    "configuredIconsExist": true,
+    "macOSBuild": "not run; requires a Mac"
+  }
+}

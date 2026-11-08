@@ -1,0 +1,9 @@
+{
+  "Name": "CANS-visible-text-fix.exe",
+  "Bytes": 47790080,
+  "SHA256": "3F8494FCF218375C1FFAD11FE9864E3B9A167A8F78B643BCDBB44075968C4A5E",
+  "Built": "2026-10-09T01:00:01.1683181+01:00",
+  "FrontendTests": 56,
+  "Purpose": "Select visible PDF text, excluding fully covered source objects",
+  "InstallerUpdated": false
+}

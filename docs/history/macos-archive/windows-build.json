@@ -1,0 +1,13 @@
+{
+  "Name": "CANS PDF_0.1.0_x64-setup.exe",
+  "Bytes": 42954353,
+  "SHA256": "D3EFF3C8110650691A9E440F8EB34D9C0564D8BB6FB6F66B80B043FAA219EC44",
+  "Built": "2026-10-09T00:01:10.7521272+01:00",
+  "Platform": "Windows x64",
+  "Signed": false,
+  "PreviewExecutable": "src-tauri/target/release/whos-pdf.exe",
+  "PreviewSHA256": "3E018F1E00BCDE7C9F6E6F41B40CC2FE33602DA936C979F901DBB779F1C2F5CD",
+  "PdfCraftRevision": "d3db99818f533a531dbcd469b2ac71ba35c0d3ec",
+  "FrontendTests": 54,
+  "NativeTests": 17
+}

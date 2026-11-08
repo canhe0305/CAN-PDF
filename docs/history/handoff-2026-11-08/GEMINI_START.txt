@@ -1,0 +1,9 @@
+请接手 CANS / Stirling-PDF 改造工作。
+
+先阅读 E:\AI CODING\CANS Stirling prototype\GEMINI_HANDOFF.md，再读取该目录 AGENTS.md、CANS_PLAN.md。主要工作目录是 E:\AI CODING\CANS Stirling prototype；E:\AI CODING\whoes pdf 是旧工程参考，不是本次默认开发目录。
+
+目标是复用 Stirling 可用核心，把界面和交互改成已认可的 CANS 文档工作台。先复核当前实现及两个失败测试，再从当前源码重新构建，完成中文原文编辑、撤销重做、保存重开再编辑的真实闭环验收。保留唯一文件状态/撤销/保存模型，不用覆盖文字伪装原文修改，不靠跳过测试交付。先完成第一阶段，再推进 Windows/macOS 薄壳和依赖能力表，不直接复用上游受限桌面层。
+
+当前英文往返已验证，中文字体修复已写入但往返未验收；全量前端 4662 项中 4660 通过、2 失败，具体原因和原始日志在任务书及 E:\AI CODING\CANS handoff 2026-11-08\logs。请按任务书列出的优先级继续，准确区分已验证、未验证和待实现。
+
+源码快照位于 E:\AI CODING\CANS handoff 2026-11-08\CANS-source-2026-11-08.zip。大范围分析遵照用户约定使用 Gemini CLI 的 @ 文件/目录包含语法。

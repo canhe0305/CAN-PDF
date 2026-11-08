@@ -1,0 +1,29 @@
+[package]
+name = "can-pdf"
+version = "0.1.0"
+description = "CAN PDF - Clean Document Processing"
+authors = ["CAN PDF Team"]
+edition = "2021"
+
+[lib]
+name = "can_app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.55"
+windows = { version = "0.62.2", features = ["Media_Ocr", "Globalization", "Graphics_Imaging", "Storage_Streams", "Win32_System_WinRT"] }
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+panic = "abort"
+strip = true

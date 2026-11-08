@@ -1,0 +1,269 @@
+html[data-cans][data-app-theme="custom"][data-theme="light"] {
+  --c-bg: var(--p-cans-canvas);
+  --c-bg-raised: var(--p-cans-canvas);
+  --c-text: var(--p-cans-ink);
+  --c-text-muted: var(--p-cans-muted);
+  --c-primary: var(--p-cans-accent);
+  --c-accent-fg: var(--p-cans-accent);
+  --c-border: var(--p-cans-border);
+  font-family:
+    "Segoe UI Variable", "Segoe UI", "Microsoft YaHei UI", "PingFang SC",
+    sans-serif;
+}
+.cans-workspace {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--c-bg);
+  color: var(--c-text);
+}
+.cans-workspace button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+}
+.cans-workspace button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.cans-workspace button:focus-visible {
+  outline: 2px solid var(--c-primary);
+  outline-offset: 3px;
+}
+.cans-titlebar {
+  flex: 0 0 68px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  user-select: none;
+  -webkit-user-select: none;
+  app-region: drag;
+}
+.cans-titlebar button,
+.cans-titlebar input,
+.cans-titlebar .cans-file-actions,
+.cans-titlebar .cans-window-controls {
+  app-region: no-drag;
+}
+.cans-wordmark {
+  font-size: 26px;
+  font-weight: 650;
+  letter-spacing: -1.3px;
+  flex-shrink: 0;
+}
+.cans-file {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: min(45vw, 520px);
+  font-size: 12px;
+  color: var(--c-text-muted);
+}
+.cans-file span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cans-file-actions {
+  margin-left: auto;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.cans-file-actions button {
+  padding: 9px 12px;
+  border-radius: 9px;
+  color: var(--c-text);
+  background: transparent;
+}
+.cans-file-actions .cans-save {
+  background: var(--p-cans-soft);
+}
+.cans-window-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+}
+.cans-file-actions + .cans-window-controls {
+  margin-left: 0;
+}
+.cans-window-controls button {
+  width: 36px;
+  height: 32px;
+  padding: 0;
+  border-radius: 7px;
+  color: var(--c-text-muted);
+  background: transparent;
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+.cans-window-controls button:hover {
+  background: var(--p-cans-soft);
+  color: var(--c-text);
+}
+.cans-window-controls button.cans-window-close:hover {
+  background: var(--c-danger-subtle);
+  color: var(--c-danger);
+}
+.cans-welcome {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px 88px;
+  text-align: center;
+}
+.cans-welcome h1 {
+  margin: 0;
+  font-size: clamp(32px, 4vw, 56px);
+  line-height: 1.35;
+  letter-spacing: -2px;
+  font-weight: 650;
+}
+.cans-welcome p {
+  margin: 21px 0 36px;
+  color: var(--c-text-muted);
+  font-size: 16px;
+}
+.cans-open {
+  min-height: 54px;
+  padding: 0 23px;
+  border-radius: 11px;
+  color: var(--p-white);
+  background: var(--c-primary);
+  box-shadow: 0 9px 22px #0000000c;
+  font-size: 15px;
+  font-weight: 600;
+}
+.cans-open kbd {
+  font-family: inherit;
+  font-size: 11px;
+  opacity: 0.6;
+  margin-left: 18px;
+  font-weight: 400;
+}
+.cans-welcome small {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 32px;
+  color: var(--c-text-muted);
+  font-size: 12px;
+}
+.cans-tools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 20px 14px;
+  flex: 0 0 54px;
+}
+.cans-tools button {
+  background: transparent;
+  color: var(--c-text-muted);
+  padding: 9px 13px;
+  border-radius: 9px;
+  font-size: 12px;
+}
+.cans-tools button[aria-pressed="true"],
+.cans-tools button:hover {
+  background: var(--p-cans-soft);
+  color: var(--c-text);
+}
+.cans-tool-divider {
+  height: 18px;
+  width: 1px;
+  background: var(--c-border);
+  margin: 0 9px;
+}
+.cans-document-body {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+.cans-document {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+}
+.cans-properties {
+  width: 304px;
+  flex-shrink: 0;
+  overflow: auto;
+  padding: 0 12px 12px 0;
+}
+.cans-properties > * {
+  width: 100%;
+  height: 100%;
+}
+.cans-notice {
+  position: fixed;
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  max-width: 90vw;
+  padding: 12px 17px;
+  border-radius: 10px;
+  background: var(--c-surface);
+  color: var(--c-text);
+  box-shadow: 0 5px 25px #00000018;
+  font-size: 12px;
+}
+.cans-notice button {
+  background: transparent;
+}
+.cans-drop {
+  position: fixed;
+  inset: 12px;
+  background: var(--p-cans-soft);
+  opacity: 0.95;
+  z-index: 300;
+  border: 2px dashed var(--c-primary);
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  font-size: 24px;
+}
+.cans-document .workbench-bar {
+  background: transparent;
+}
+.cans-document [data-testid="pdf-editor-panel-actions"] {
+  background: var(--c-bg);
+}
+@media (max-width: 900px) {
+  .cans-titlebar {
+    padding: 0 18px;
+    gap: 20px;
+  }
+  .cans-properties {
+    width: 260px;
+  }
+}
+@media (max-width: 650px) {
+  .cans-properties {
+    width: 220px;
+  }
+  .cans-file {
+    max-width: 40vw;
+  }
+  .cans-tools button {
+    padding: 8px;
+  }
+  .cans-welcome h1 {
+    letter-spacing: -1px;
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-07T09:50:54.272Z",
+  "source": "E:/AI CODING/whoes pdf",
+  "destination": "E:/AI CODING/CANS PDF macOS",
+  "backup": "C:/Users/Canhe/AppData/Local/Temp/cans-editing-upgrade-nDwpkd",
+  "scope": "First batch: inline save, recovery as copy, embedded-font display and uniform spacing",
+  "checks": {
+    "frontend": {
+      "command": "npm run check",
+      "passed": 102,
+      "files": 22
+    },
+    "native": {
+      "passed": 22,
+      "finalFileModuleRerun": 12
+    },
+    "windowsBuild": "npm run tauri -- build --no-bundle",
+    "macBuild": "not run; requires a Mac"
+  },
+  "executable": {
+    "path": "src-tauri/target/release/CANS-editing-recovery-2026-11-07.exe",
+    "bytes": 47844864,
+    "sha256": "7a49075fcd66c2c45fc3c09573724d0437c0d7cb5cdd0bd313c4c1b1de6d40c4"
+  },
+  "browser": {
+    "originalText": "中文字体编辑验证",
+    "baseline": [
+      50,
+      250
+    ],
+    "registeredFontsAfterClose": 0,
+    "addedTextSavedImmediately": "新增文字立即保存 2026",
+    "originalOutputBytes": 13834743,
+    "addedOutputBytes": 27668070,
+    "scope": "Chromium localhost synthetic PDFs; not a native WebView2 test"
+  },
+  "files": [
+    {
+      "path": "src/App.tsx",
+      "sha256": "9b66ccbd8026d02ef1a3d91716c1dca04e1310b5adec62f7d0519f2e289f20f2",
+      "macSha256": "9b66ccbd8026d02ef1a3d91716c1dca04e1310b5adec62f7d0519f2e289f20f2"
+    },
+    {
+      "path": "src/components/PdfPage.tsx",
+      "sha256": "817275083029eaf12b1bd98e12978027a0465e9fdfd31970f014edee2288a4eb",
+      "macSha256": "817275083029eaf12b1bd98e12978027a0465e9fdfd31970f014edee2288a4eb"
+    },
+    {
+      "path": "src/document/session.ts",
+      "sha256": "af9f77cc3caa70b0bddbcb192add544c8cca5f3b934258e9b1268acf980e6195",
+      "macSha256": "af9f77cc3caa70b0bddbcb192add544c8cca5f3b934258e9b1268acf980e6195"
+    },
+    {
+      "path": "src/document/useDocumentSession.ts",
+      "sha256": "db09dfb8e7d633354df85240393287cfb5e9102e37a6b3df0371ceb3105191b7",
+      "macSha256": "db09dfb8e7d633354df85240393287cfb5e9102e37a6b3df0371ceb3105191b7"
+    },
+    {
+      "path": "src/features/original-text/editor-geometry.ts",
+      "sha256": "dd961d967d3de93779ee2bb763b79024bd8b2454c9f7d0ac4ffa4cec2793fb28",
+      "macSha256": "dd961d967d3de93779ee2bb763b79024bd8b2454c9f7d0ac4ffa4cec2793fb28"
+    },
+    {
+      "path": "src/features/original-text/engine.ts",
+      "sha256": "45f767f7f99729c7c93f58ae20d8f1692fc797f03065649b6c3c39655055f515",
+      "macSha256": "45f767f7f99729c7c93f58ae20d8f1692fc797f03065649b6c3c39655055f515"
+    },
+    {
+      "path": "src/features/original-text/InlineOriginalEditor.tsx",
+      "sha256": "b64c97270b71fbfa89c144cc3a84d30ad656546f35e6fcbbc9e28f5bcbb497d8",
+      "macSha256": "b64c97270b71fbfa89c144cc3a84d30ad656546f35e6fcbbc9e28f5bcbb497d8"
+    },
+    {
+      "path": "src/features/original-text/list.worker.ts",
+      "sha256": "23f3ff967c99c3efc049c345a4da42731b043290f0d70f9c87e4b11d774f2868",
+      "macSha256": "23f3ff967c99c3efc049c345a4da42731b043290f0d70f9c87e4b11d774f2868"
+    },
+    {
+      "path": "src/features/original-text/original-text.css",
+      "sha256": "b2b6a7f2a58953177dd5fc7837453db9620f38aeb662c16cc2e124948616de93",
+      "macSha256": "b2b6a7f2a58953177dd5fc7837453db9620f38aeb662c16cc2e124948616de93"
+    },
+    {
+      "path": "src/features/original-text/service.ts",
+      "sha256": "26a378377beb041364890503126f98e320cc102b63d0321ca184d6170a2be9ab",
+      "macSha256": "26a378377beb041364890503126f98e320cc102b63d0321ca184d6170a2be9ab"
+    },
+    {
+      "path": "src/features/original-text/types.ts",
+      "sha256": "5032361052a49139d8388d6796f4fc9c1e33ff77df564069bb6dcdc9bfc48dac",
+      "macSha256": "5032361052a49139d8388d6796f4fc9c1e33ff77df564069bb6dcdc9bfc48dac"
+    },
+    {
+      "path": "tests/editor-geometry.test.ts",
+      "sha256": "90b35af0ce2311b88138c7bab67091de8d7cc64ee7624d3f0a46876debae1fd3",
+      "macSha256": "90b35af0ce2311b88138c7bab67091de8d7cc64ee7624d3f0a46876debae1fd3"
+    },
+    {
+      "path": "tests/original-text.test.ts",
+      "sha256": "8c84333ad0ac838126a80602de1bd5717cf997f0de786d4ee8552db8d5e33f5e",
+      "macSha256": "8c84333ad0ac838126a80602de1bd5717cf997f0de786d4ee8552db8d5e33f5e"
+    },
+    {
+      "path": "src-tauri/src/files.rs",
+      "sha256": "80113ccd97a59867efd6528d8e564fe16bd5be43772c8b7027b590ac1f113fce",
+      "macSha256": "80113ccd97a59867efd6528d8e564fe16bd5be43772c8b7027b590ac1f113fce"
+    },
+    {
+      "path": "README.md",
+      "sha256": "aec0f3d33369e0768692bd89b79bc219b1ae05a40fc082565163b564b0b9f129",
+      "macSha256": "b0179ade92ad970affbe1bbe89c25e4956e20c701752a4de01ec7b38b73937c0"
+    },
+    {
+      "path": "src/components/InlineTextEditor.tsx",
+      "sha256": "99f4e152cdb40ab5bd603701eb9f8cfd8437c5146929b3aec4e21af909d80d49",
+      "macSha256": "99f4e152cdb40ab5bd603701eb9f8cfd8437c5146929b3aec4e21af909d80d49"
+    },
+    {
+      "path": "src/features/original-text/font-data.ts",
+      "sha256": "f5e768fabbca8a47703dde4fdeffbf0f56bf642fcd1b1ba2e95cda7bca183eb1",
+      "macSha256": "f5e768fabbca8a47703dde4fdeffbf0f56bf642fcd1b1ba2e95cda7bca183eb1"
+    },
+    {
+      "path": "src/features/original-text/embedded-font.ts",
+      "sha256": "70725bc27f01be9a832aae396de9cf44ee22cb859fc2f3fd4511545fddbd19a4",
+      "macSha256": "70725bc27f01be9a832aae396de9cf44ee22cb859fc2f3fd4511545fddbd19a4"
+    },
+    {
+      "path": "tests/inline-text-editor.test.ts",
+      "sha256": "adfedfa42af9fed44e2fe758ce37b32e0c91223bfa43cc70b35031bb4fab5a0d",
+      "macSha256": "adfedfa42af9fed44e2fe758ce37b32e0c91223bfa43cc70b35031bb4fab5a0d"
+    },
+    {
+      "path": "tests/embedded-font.test.ts",
+      "sha256": "71173fbc10c654a65dc792e7626c097cfdb7c1535a5a6eaeda44798fcdfbb61d",
+      "macSha256": "71173fbc10c654a65dc792e7626c097cfdb7c1535a5a6eaeda44798fcdfbb61d"
+    },
+    {
+      "path": "tests/recovery-session.test.ts",
+      "sha256": "39fcd6f5445fa600a33f8b8dcbfbff486b86de92b576091ce1a6ed005d499147",
+      "macSha256": "39fcd6f5445fa600a33f8b8dcbfbff486b86de92b576091ce1a6ed005d499147"
+    },
+    {
+      "path": "public/licenses/stirling/LICENSE",
+      "sha256": "e37c7ec776906aebe25e48288da4305afd45dee92f0231ddec68af59cbd7736b",
+      "macSha256": "e37c7ec776906aebe25e48288da4305afd45dee92f0231ddec68af59cbd7736b"
+    },
+    {
+      "path": "public/licenses/stirling/NOTICE.txt",
+      "sha256": "3de2448f1d9b5a087675163c3a62e536dda822c86abd9f1cf210353c3518da21",
+      "macSha256": "3de2448f1d9b5a087675163c3a62e536dda822c86abd9f1cf210353c3518da21"
+    },
+    {
+      "path": "docs/licenses.md",
+      "sha256": "4d2913e67e5bd003dafff41dc6938215fe0bf43d0b8029d7d23d25d56551b85e",
+      "macSha256": "4d2913e67e5bd003dafff41dc6938215fe0bf43d0b8029d7d23d25d56551b85e"
+    },
+    {
+      "path": "docs/editing-recovery-2026-11-07.md",
+      "sha256": "bab8a0eb567dd75c927bc4dc4e67cbd355af2744b23012ff637b8ca52ba09dfb",
+      "macSha256": "bab8a0eb567dd75c927bc4dc4e67cbd355af2744b23012ff637b8ca52ba09dfb"
+    }
+  ],
+  "macProtectedFiles": [
+    {
+      "path": "src-tauri/tauri.conf.json",
+      "sha256": "38c6c287f5e52785577617df674d6cbc3dd17129b70a9b94e5b5d3804f2a19dd"
+    },
+    {
+      "path": "README_MACOS.md",
+      "sha256": "f58c8608575caa9d1848600f95ef79eb6dbed6d5f796a5371972f495a31f86ed"
+    }
+  ],
+  "excludes": [
+    "node_modules",
+    "target",
+    "dist",
+    "tests/output"
+  ],
+  "limitations": [
+    "No paragraph reflow",
+    "Special font mappings/subsets/spacing may fall back",
+    "Chinese font subset embedding/deduplication not implemented",
+    "No macOS native verification",
+    "No complete Windows dialog/install acceptance"
+  ]
+}

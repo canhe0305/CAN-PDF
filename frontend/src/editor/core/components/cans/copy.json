@@ -1,0 +1,42 @@
+{
+  "en": {
+    "pdfOnly": "Choose a PDF file.",
+    "notReady": "The document is not ready. Try again shortly.",
+    "saveFromViewer": "Switch to the reader to save this document.",
+    "downloadStarted": "PDF download started. Check that the file was saved.",
+    "closeFile": "Close document",
+    "open": "Open file",
+    "save": "Save",
+    "welcome": "Open a PDF. Start working.",
+    "chooseOrDrop": "Choose a file, or drop it here.",
+    "opening": "Opening…",
+    "local": "Documents are processed on this device",
+    "documentTools": "Document tools",
+    "read": "Read",
+    "edit": "Edit text",
+    "pages": "Pages",
+    "find": "Find text",
+    "dismiss": "Dismiss message",
+    "drop": "Drop to open PDF"
+  },
+  "zh": {
+    "pdfOnly": "请选择 PDF 文件。",
+    "notReady": "文档尚未准备好，请稍后重试。",
+    "saveFromViewer": "请切换到阅读视图后保存。",
+    "downloadStarted": "已生成 PDF 下载，请确认文件已保存。",
+    "closeFile": "关闭文档",
+    "open": "打开文件",
+    "save": "保存",
+    "welcome": "打开 PDF，开始工作。",
+    "chooseOrDrop": "选择文件，或拖到这里。",
+    "opening": "正在打开…",
+    "local": "文档在本机处理",
+    "documentTools": "文档工具",
+    "read": "阅读",
+    "edit": "编辑原文",
+    "pages": "页面",
+    "find": "查找文字",
+    "dismiss": "关闭提示",
+    "drop": "松开以打开 PDF"
+  }
+}

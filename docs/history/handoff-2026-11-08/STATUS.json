@@ -1,0 +1,23 @@
+{
+  "saved_on": "2026-11-08",
+  "active_project": "E:\\AI CODING\\CANS Stirling prototype",
+  "direction": "Adapt reusable Stirling-PDF core into the CANS document workspace",
+  "upstream_commit": "046f1a0e7163fae43ad9b687fdd1c697f05dda8d",
+  "checkout": "partial and sparse; some remote Git objects are missing",
+  "frontend_check": {
+    "status": "failed",
+    "test_files": {"passed": 414, "failed": 2, "total": 416},
+    "tests": {"passed": 4660, "failed": 2, "total": 4662},
+    "failures": [
+      "ogMetadata.test.ts: CANS HTML shell lacks upstream OG description meta",
+      "unusedTranslations.test.ts: 3377 unreferenced English keys; consumer scope needs review"
+    ]
+  },
+  "core_typecheck": "passed in preceding development session",
+  "core_build": "passed; rebuild required after Latin source font restoration",
+  "english_original_text_round_trip": "verified on synthetic 3-page plain.pdf",
+  "chinese_original_text_round_trip": "not yet verified after fallback font fix",
+  "new_native_desktop_release": "not built",
+  "system_ocr": "partial implementation in legacy Windows project only",
+  "handoff_action": "Stop feature work; preserve sources and evidence for Gemini"
+}

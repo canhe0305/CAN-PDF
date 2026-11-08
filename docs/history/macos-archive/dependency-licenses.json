@@ -1,0 +1,97 @@
+[
+  {
+    "name": "@embedpdf/pdfium",
+    "version": "2.15.1",
+    "license": "MIT"
+  },
+  {
+    "name": "@pdf-lib/fontkit",
+    "version": "1.1.1",
+    "license": "MIT"
+  },
+  {
+    "name": "@tauri-apps/api",
+    "version": "2.12.1",
+    "license": "Apache-2.0 OR MIT"
+  },
+  {
+    "name": "lucide-react",
+    "version": "1.52.0",
+    "license": "ISC"
+  },
+  {
+    "name": "pdf-lib",
+    "version": "1.17.1",
+    "license": "MIT"
+  },
+  {
+    "name": "pdfjs-dist",
+    "version": "6.4.299",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "react",
+    "version": "19.3.0",
+    "license": "MIT"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.0",
+    "license": "MIT"
+  },
+  {
+    "name": "tesseract.js",
+    "version": "7.0.0",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "@tauri-apps/cli",
+    "version": "2.12.1",
+    "license": "Apache-2.0 OR MIT"
+  },
+  {
+    "name": "@types/node",
+    "version": "26.6.4",
+    "license": "MIT"
+  },
+  {
+    "name": "@types/react",
+    "version": "19.3.0",
+    "license": "MIT"
+  },
+  {
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "license": "MIT"
+  },
+  {
+    "name": "@vitejs/plugin-react",
+    "version": "6.1.2",
+    "license": "MIT"
+  },
+  {
+    "name": "prettier",
+    "version": "3.9.9",
+    "license": "MIT"
+  },
+  {
+    "name": "tsx",
+    "version": "4.23.15",
+    "license": "MIT"
+  },
+  {
+    "name": "typescript",
+    "version": "6.0.3",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "vite",
+    "version": "8.3.2",
+    "license": "MIT"
+  },
+  {
+    "name": "vitest",
+    "version": "5.0.3",
+    "license": "MIT"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "Name": "CANS-core-cleanup.exe",
+  "Bytes": 47825408,
+  "SHA256": "873C8A0CE56254DC8DD033CB0B6580F3CDA7B14CBAAF64D518F5562538729ECD",
+  "Built": "2026-10-10T01:56:18.3199392+01:00",
+  "FrontendTests": 72,
+  "NativeTests": 20,
+  "Purpose": "Shared preview lifecycle, on-demand fonts, binary native save, background file operations, unobstructed toolbar feedback",
+  "InstallerUpdated": false
+}

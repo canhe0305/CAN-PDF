@@ -1,0 +1,9 @@
+{
+  "Name": "CANS-auto-apply.exe",
+  "Bytes": 47790080,
+  "SHA256": "6936CF725D8E872EDD5FCA6238FD321B15510DF6CF861AA23FF6BF0C76212B4B",
+  "Built": "2026-10-09T14:57:41.1024191+01:00",
+  "FrontendTests": 59,
+  "Purpose": "Apply original-text input immediately, group undo, debounce PDF preview",
+  "InstallerUpdated": false
+}
