@@ -1,7 +1,7 @@
 # CAN PDF
 
 <p align="center">
-  <strong>现代化跨平台纯净 PDF 工作区 · 极简无边框 · 100% 离线私密</strong>
+  <strong>祂的工具箱系列- 能！PDF - MACOS/WINDOWS</strong>
 </p>
 
 <p align="center">
@@ -17,21 +17,21 @@
 
 ---
 
-## 🌟 核心特色 (Key Features)
+##  核心特色 (Key Features)
 
-* **🖥️ 现代沉浸式无边框设计 (Modern Frameless UI)**  
-  告别传统双层厚重标题栏，采用现代沉浸式极简无边框窗口。支持标题栏任意区域平滑拖拽移动、双击最大化/还原，窗口控制按钮融入应用原生设计，关闭时提供贴心的未保存工作拦截保护。
+* 以文件为中心的UI设计
+* 采用现代沉浸式极简无边框窗口。支持标题栏任意区域平滑拖拽移动、双击最大化/还原，窗口控制按钮融入应用原生设计，关闭时提供贴心的未保存工作拦截保护。
 
-* **🔒 100% 本地离线与数据主权 (100% Local & Privacy-First)**  
+* 100% 本地离线与数据主权 (100% Local & Privacy-First)  
   无任何后端依赖，不上传任何文档至第三方云端。所有文本编辑、页面拼装、密码解密均在电脑本地内存完成，保障敏感文档绝对安全。
 
-* **⚡ 极致轻量与原生性能 (Lightweight & Native Performance)**  
+* 极致轻量与原生性能 (Lightweight & Native Performance)  
   基于 **Tauri 2 (Rust)** 打造，调用系统原生现代化内核（Windows WebView2 / macOS WebKit）。体积仅数十兆，内存占用极低，告别 Electron 与 Java JRE 的资源臃肿。
 
-* **✍️ 深度行级原位编辑 (Line-Level In-Place Editing)**  
+* 深度行级原位编辑 (Line-Level In-Place Editing)
   针对学术论文、公文等高密度排版，默认采用行级绝对坐标原位微调（Line-Mode）与自适应右向延展，彻底解决段落自动重排导致的错位、挤字、行尾截断与字形跳动。
 
-* **🌐 跨平台开箱即用 (Cross-Platform Ready)**  
+* 跨平台开箱即用 (Cross-Platform Ready)  
   内置 GitHub Actions 全自动多平台编译流水线，支持一键为 **Windows** 和 **macOS (Apple Silicon M1~M4 / Intel)** 构建原生安装包。
 
 ---
