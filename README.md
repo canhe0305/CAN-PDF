@@ -1,7 +1,7 @@
 # CAN PDF
 
 <p align="center">
-  <strong>祂的工具箱系列- 能PDF - MACOS/WINDOWS</strong>
+  <strong>祂的工具箱系列- 能！PDF - MACOS/WINDOWS</strong>
 </p>
 
 <p align="center">
