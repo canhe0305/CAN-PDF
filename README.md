@@ -1,7 +1,7 @@
 # CAN PDF
 
 <p align="center">
-  <strong>现代化跨平台纯净 PDF 工作区 · 极简无边框 · 100% 离线私密</strong>
+  <strong>祂的工具箱系列-能PDF-MACOS/WINDOWS</strong>
 </p>
 
 <p align="center">
