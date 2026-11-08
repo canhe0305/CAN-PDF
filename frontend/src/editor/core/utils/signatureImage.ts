@@ -82,7 +82,7 @@ export async function renderTypedSignature({
 }: TypedSignatureOptions): Promise<string | null> {
   const value = text.trim();
   if (!value) return null;
-  const font = `${fontSize}px "${fontFamily}"`;
+  const font = `${fontSize}px "${fontFamily}", "STKaiti", "KaiTi", "楷体", "Microsoft YaHei", cursive, sans-serif`;
   await document.fonts?.load(font, value).catch(() => undefined);
 
   const measureCtx = createCanvas(1, 1).getContext("2d");

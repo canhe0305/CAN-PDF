@@ -51,7 +51,7 @@ export function SignatureStylePicker({
               data-placeholder={!text.trim() || undefined}
               className={`${styles.preview} ${privateContentClassName}`}
               style={{
-                fontFamily: `"${font.family}", cursive`,
+                fontFamily: `"${font.family}", "STKaiti", "KaiTi", "楷体", "Microsoft YaHei", cursive, sans-serif`,
                 fontSize: PREVIEW_FONT_SIZE * font.previewScale,
                 color: ink,
               }}

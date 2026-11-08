@@ -19,6 +19,7 @@ export function InkSwatches({ value, onChange }: InkSwatchesProps) {
     black: t("sign.wallet.ink.black", "Black ink"),
     navy: t("sign.wallet.ink.navy", "Navy ink"),
     blue: t("sign.wallet.ink.blue", "Blue ink"),
+    red: t("sign.wallet.ink.red", "Red ink"),
   };
 
   return (

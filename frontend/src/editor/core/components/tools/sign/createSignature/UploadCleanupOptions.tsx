@@ -8,7 +8,7 @@ import type { UploadCleanup } from "@editor/utils/signatureImage";
 import { ControlLabel } from "@editor/components/tools/sign/createSignature/ControlLabel";
 import styles from "@editor/components/tools/sign/createSignature/UploadSignaturePanel.module.css";
 
-export type InkChoice = "original" | "black" | "blue";
+export type InkChoice = "original" | "black" | "blue" | "red";
 
 export interface CleanupSettings {
   removeBackground: boolean;
@@ -56,6 +56,7 @@ export function UploadCleanupOptions({
       label: t("sign.wallet.upload.inkBlack", "Black"),
     },
     { value: "blue" as const, label: t("sign.wallet.upload.inkBlue", "Blue") },
+    { value: "red" as const, label: t("sign.wallet.upload.inkRed", "Red") },
   ];
 
   return (

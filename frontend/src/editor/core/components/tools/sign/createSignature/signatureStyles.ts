@@ -20,7 +20,7 @@ export const SIGNATURE_FONTS: SignatureFont[] = [
 ];
 
 export interface InkColor {
-  id: "black" | "navy" | "blue";
+  id: "black" | "navy" | "blue" | "red";
   value: string;
 }
 
@@ -28,6 +28,7 @@ export const INK_COLORS: InkColor[] = [
   { id: "black", value: "#111111" }, // theme-allow-color signature ink on paper
   { id: "navy", value: "#16233f" }, // theme-allow-color signature ink on paper
   { id: "blue", value: "#1d4ed8" }, // theme-allow-color signature ink on paper
+  { id: "red", value: "#dc2626" }, // theme-allow-color signature ink on paper
 ];
 
 export const DEFAULT_INK = INK_COLORS[0];
